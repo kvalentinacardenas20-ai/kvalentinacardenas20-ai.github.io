@@ -1,0 +1,58 @@
+body {
+    font-family: Simonetta;
+   
+}
+
+tei-title {
+  display: block;
+  font-style: italic;
+  text-align: center;
+  font-size: xx-large;
+}
+tei-author {
+    color: rgb(15, 100, 22);
+    display: block;
+    font-size: large;
+}
+tei-l {
+    display: block;
+}
+tei-stage[lang="eng"]{
+    display: block;
+    font-variant: small-caps;
+    font-style:initial;
+    color:blue
+    
+}
+tei-stage[lang="spa"]{
+    display: block;
+    display: none;
+    font-variant: small-caps;
+    font-style: italic;
+    color: blueviolet;
+}
+tei-speaker {
+    display: block;
+    font-variant: small-caps;
+    color: rgb(122, 3, 3);
+    font-weight: 600;
+}
+
+tei-sp[lang="spa"]{
+    display: block;
+    display: none;
+}
+tei-castItem { 
+    display: list-item;
+  list-style-type: "— ";
+  margin-left: 1em;
+       
+}
+tei-role {
+    color: rgb(186, 7, 7);
+    
+    
+}
+tei-roleDesc {
+    font-style: italic;
+    }
