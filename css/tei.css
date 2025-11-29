@@ -1,58 +1,237 @@
-body {
-    font-family: Simonetta;
-   
+body{
+    font-family:"Beau Rivage";
+    margin-left: 1cm;
+}
+
+tei-author {
+    color: darkred;
+    display: block;
 }
 
 tei-title {
-  display: block;
-  font-style: italic;
-  text-align: center;
-  font-size: xx-large;
-}
-tei-author {
-    color: rgb(15, 100, 22);
     display: block;
-    font-size: large;
-}
-tei-l {
-    display: block;
-}
-tei-stage[lang="eng"]{
-    display: block;
-    font-variant: small-caps;
-    font-style:initial;
-    color:blue
-    
-}
-tei-stage[lang="spa"]{
-    display: block;
-    display: none;
-    font-variant: small-caps;
     font-style: italic;
-    color: blueviolet;
+    text-align: center;
+    font-size: xx-large;
 }
-tei-speaker {
+
+tei-l {
+ display: block;
+}
+
+tei-head {
+    font-style: italic;
+}
+
+tei-sp[lang="eng"]{
     display: block;
-    font-variant: small-caps;
-    color: rgb(122, 3, 3);
-    font-weight: 600;
 }
 
 tei-sp[lang="spa"]{
     display: block;
     display: none;
+
 }
-tei-castItem { 
-    display: list-item;
-  list-style-type: "— ";
-  margin-left: 1em;
-       
+
+
+tei-stage[lang="eng"]  {
+    display: block;
+    color: purple;
+    font-size: larger;
 }
-tei-role {
-    color: rgb(186, 7, 7);
-    
-    
+
+tei-stage[lang="spa"]  {
+    display: block;
+    display: none;
+
 }
-tei-roleDesc {
+
+tei-speaker {
+    display: block;
+    font-size: large;
+    text-decoration: underline;
+}
+
+tei-castitem {
+    display: contents;
+    font-size:medium
+}
+tei-lem {
+    display: inline;
     font-style: italic;
-    }
+    
+}
+tei-lem::after{
+    content: "("attr(wit)")";
+    vertical-align: sub;
+    font-size: 6pt;
+}
+tei-rdg {
+    display: inline;
+    color: rgb(35, 4, 109);
+    font-style: italic;
+}
+tei-rdg::after {
+    content: "("attr(wit)")";
+    vertical-align: sub;
+    font-size:6pt;
+}
+tei-lem[n]::after {
+    content: "";
+}
+tei-rdg {
+    display: inline;
+    color: rgb(75, 28, 183);
+    font-style: italic;
+}
+tei-rdg::after {
+    content:"("attr(wit)")";
+    vertical-align: sub;
+    font-size: 8pt;  
+}
+tei-rdg[type="variation-absent"]::after {
+    content:"∅ (" attr(wit) ")";
+    vertical-align: sub;
+    font-size: 8pt;
+}
+tei-rdg[type="variation-present"]::after {
+    content:"🄼 (" attr(wit) ")";
+
+}
+
+
+#comparisonPanel {
+  position: fixed;
+  top: 0;
+  right: -400px; 
+  width: 380px;
+  height: 100%;
+  background-color: #f8f9fb;
+  border-left: 2px solid #ccc;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  transition: right 0.4s ease;
+  padding: 1em;
+  font-family: Georgia, serif;
+  z-index: 9999;
+}
+
+body.show-comparison #comparisonPanel {
+  right: 0; 
+}
+
+#toggleComparison {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background: #33b952;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  font-size: 0.9em;
+  z-index: 10000;
+  transition: background 0.3s ease;
+}
+
+#toggleComparison:hover {
+  background: #c01188;
+}
+
+.variant {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+.variant lem {
+  display: block;
+  font-weight: bold;
+  color: #222;
+}
+.variant rdg {
+  display: block;
+  color: darkgreen;
+  margin-left: 0.5em;
+}
+
+/* Eliminar todos los símbolos generados por defecto */
+tei-lem::after,
+tei-rdg::after,
+tei-rdg[type="variation-absent"]::after {
+    content: none !important;
+}
+
+/* SOLO mostrar F1, Q1 o Q2 cuando realmente existen */
+tei-rdg[witness="F1"]::after,
+tei-rdg[wit="F1"]::after {
+    content: " (F1)";
+    vertical-align: sub;
+    font-size: 8pt;
+}
+
+tei-rdg[witness="Q1"]::after,
+tei-rdg[wit="Q1"]::after {
+    content: " (Q1)";
+    vertical-align: sub;
+    font-size: 8pt;
+}
+
+tei-rdg[witness="Q2"]::after,
+tei-rdg[wit="Q2"]::after {
+    content: " (Q2)";
+    vertical-align: sub;
+    font-size: 8pt;
+}
+
+/* Por defecto, NO se ven las lecturas alternativas */
+tei-rdg {
+  display: none;
+}
+
+/* Modo F1: mostrar solo las variantes F1 */
+body.show-f1 tei-rdg[wit*="F1"],
+body.show-f1 tei-rdg[witness*="F1"],
+body.show-f1 tei-rdg[data-witness*="F1"] {
+  display: inline;
+  color: rgb(139, 0, 0);
+  background: #e6e6ff;
+}
+
+/* Modo Q1: mostrar solo las variantes Q1 */
+body.show-q1 tei-rdg[wit*="Q1"],
+body.show-q1 tei-rdg[witness*="Q1"],
+body.show-q1 tei-rdg[data-witness*="Q1"] {
+  display: inline;
+  color: rgb(0, 90, 139);
+  background: #e6f3ff;
+}
+
+/* Botones flotantes en la derecha */
+#toggleF1, #toggleQ1 {
+  position: fixed;
+  right: 1em;
+  background: #33b952;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  font-size: 0.9em;
+  z-index: 10000;
+  transition: background 0.3s ease;
+}
+
+/* Botón F1 más arriba */
+#toggleF1 {
+  top: 1em;
+}
+
+/* Botón Q1 debajo */
+#toggleQ1 {
+  top: 4em;
+}
+
+#toggleF1:hover, #toggleQ1:hover {
+  background: #c01188;
+}

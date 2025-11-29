@@ -84,16 +84,16 @@
             <role>Cornelius</role>
             <roleDesc>Danish ambassador to Norway</roleDesc>
           </castItem>
-          <castItem xml:id="barnardo">
-            <role>Barnardo</role>
+          <castItem xml:id="bernardo">
+            <role>Bernardo</role>
             <roleDesc>sentinel</roleDesc>
           </castItem>
           <castItem xml:id="francisco">
             <role>Francisco</role>
             <roleDesc>sentinel</roleDesc>
           </castItem>
-          <castItem xml:id="marcelus">
-            <role>Marcelus</role>
+          <castItem xml:id="marcellus">
+            <role>Marcellus</role>
             <roleDesc>sentinel</roleDesc>
           </castItem>
           <castItem xml:id="osric">
@@ -181,16 +181,26 @@
             <supplied>1.2</supplied>
           </head>
 
-          <stage xml:lang="eng" xml:id="g9m3v7k2x4_eng" corresp="#g9m3v7k2x4_spa">Flourish. Enter Claudius, King of Denmark, Gertrude the Queen, Council—as Polonius and his son Laertes, Hamlet, with others </stage>
+          <stage xml:lang="eng" xml:id="g9m3v7k2x4_eng" corresp="#g9m3v7k2x4_spa">Flourish. Enter Claudius, King of Denmark, 
+            <app>
+              <lem> Gertrude </lem>
+              <rdg wit="#F1">Gertrad</rdg>
+            </app> 
+            the Queen, Council—as Polonius and his son Laertes, Hamlet, with others </stage>
               <app> 
                 <lem>[including Voltemand and Cornelius].</lem>
                   <rdg wit="#F1" type="variation-absent"></rdg>
+                  <rdg wit="#Q1">
+                    <l> Enter King, Queene, Hamlet, Leartes, Corambis,</l> 
+                    <l> and the two Amballadors, with Attendants.</l></rdg>
               </app>
-
-          <stage xml:lang="spa" xml:id="g9m3v7k2x4_spa" corresp="#g9m3v7k2x4_eng">[Florece] Entra Claudio, Rey de Dinamarca, Gertrudis la reina, el Consejo, Polonio y su hijo Laerte, Hamlet, con Voltemand y Cornelio.</stage>
-
+          
+            <app xml:id="u3k_1b7_ghc">
+              <lem wit="#F1 #Q2">
           <sp who="#king" xml:lang="eng" xml:id="k4r7m2x9b1_eng" corresp="#k4r7m2x9b1_spa">
             <speaker>King</speaker>
+            <l></l>
+           
             <l>Though yet of Hamlet our dear brother's death</l>
             <l>The memory be green, and that it us befitted</l>
             <l>To bear our hearts in grief, and our whole kingdom</l>
@@ -207,25 +217,6 @@
             <l>Taken to wife. Nor have we herein barred</l>
             <l>Your better wisdoms, which have freely gone</l>
             <l>With this affair along. For all, our thanks.</l>
-          </sp>
-          <sp who="#king" xml:lang="spa" xml:id="k4r7m2x9b1_spa" corresp="#k4r7m2x9b1_eng">
-            <speaker>Rey</speaker>
-            <l>Aunque aún de Hamlet, nuestro caro hermano, la muerte</l>
-            <l>la memoria verde esté, y nos convenga</l>
-            <l>llevar el corazón en duelo, y todo el reino</l>
-            <l>contraerse en una sola ceja de aflicción,</l>
-            <l>con todo, tanto ha luchado la discreción con natura,</l>
-            <l>que con sabia tristeza pensamos en él,</l>
-            <l>juntamente con memoria de nosotros mismos.</l>
-            <l>Por tanto, nuestra hermana de otrora, ahora nuestra reina,</l>
-            <l>la imperial consorte de este belicoso estado,</l>
-            <l>hemos, cual con alegría vencida, tomado por esposa,</l>
-            <l>con ojo propicio y con ojo lloroso,</l>
-            <l>con júbilo en funerales y canto fúnebre en bodas,</l>
-            <l>sopesando en igual balanza deleite y dolor.</l>
-            <l>Ni hemos vedado aquí vuestra mejor prudencia,</l>
-            <l>que libremente se unió a este negocio.</l>
-            <l>Por todo, gracias.</l>
           </sp>
 
           <sp who="#king" xml:lang="eng" xml:id="n8v3k1x7b5_eng" corresp="#n8v3k1x7b5_spa">
@@ -244,18 +235,7 @@
               <rdg wit="#F1" type="variation-present">Enter Voltemand and Cornelius</rdg>
             </app>
           </sp>
-          <sp who="#king" xml:lang="spa" xml:id="n8v3k1x7b5_spa" corresp="#n8v3k1x7b5_eng">
-            <speaker>Rey</speaker>
-            <l>Ahora sigue lo que sabéis de joven Fortimbrás,</l>
-            <l>que con débil suposición de nuestro valor,</l>
-            <l>o creyendo que por la muerte de nuestro caro hermano</l>
-            <l>nuestro estado se halla roto y fuera de marco,</l>
-            <l>asociado con este sueño de ventaja,</l>
-            <l>no ha fallado en importunarnos con mensajes</l>
-            <l>pidiendo la entrega de aquellas tierras</l>
-            <l>que perdió su padre, por todas leyes,</l>
-            <l>a nuestro más valiente hermano. Tanto de él.</l>
-          </sp>
+          
 
           <sp who="#king" xml:lang="eng" xml:id="h5k9m2v3x7_eng" corresp="#h5k9m2v3x7_spa">
             <speaker>King</speaker>
@@ -274,46 +254,51 @@
             <l>Of these delated articles allow.</l>
             <l>Farewell, and let your haste commend your duty.</l>
           </sp>
-          <sp who="#king" xml:lang="spa" xml:id="h5k9m2v3x7_spa" corresp="#h5k9m2v3x7_eng">
-            <speaker>Rey</speaker>
-            <l>Ahora por nosotros, y por esta junta,</l>
-            <l>este es el negocio: hemos escrito</l>
-            <l>al Noruega, tío de joven Fortimbrás,</l>
-            <l>que, impotente y en cama, apenas oye</l>
-            <l>el propósito de su sobrino, para frenar</l>
-            <l>su paso más allá, pues las levas,</l>
-            <l>las listas y proporciones se han hecho</l>
-            <l>de entre sus súbditos; y enviamos aquí</l>
-            <l>a vos, buen Cornelio, y a vos, Voltemando,</l>
-            <l>portadores de este saludo al viejo Noruega,</l>
-            <l>dándoos ningún poder personal mayor</l>
-            <l>que el alcance que estos artículos conceden.</l>
-            <l>Adiós, y que vuestra premura muestre vuestro deber.</l>
-          </sp>
+          
 
           <sp who="#cornelius-voltemand" xml:lang="eng" xml:id="x3v7k2m9b5_eng" corresp="#x3v7k2m9b5_spa">
             <speaker>Cornelius and Voltemand</speaker>
             <l>In that and all things will we show our duty</l>
           </sp>
-          <sp who="#cornelius-voltemand" xml:lang="spa" xml:id="x3v7k2m9b5_spa" corresp="#x3v7k2m9b5_eng">
-            <speaker>Cornelio y Voltemand</speaker>
-            <l>En ello y en todo mostraremos nuestro deber.</l>
-          </sp>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"></rdg>
+          <rdg wit="#Q1" type="variation-present">
+            <sp who="#king" xml:lang="eng" xml:id="m7s1v4x9b2_eng" corresp="#m7s1v4x9b2_spa">
+            <speaker>King</speaker>
+           <l> Lordes,we here htiue writ to Fortimbrase,</l>
+           <l> Nephew to olde Norway, who impudent</l>
+           <l> And bed-rid, scarcely heares of this his </l>
+           <l> Nephews purpose : and Wee heere dispatch </l>
+           <l> Yong good Cornelius, and you Voldemant </l>
+           <l> For bearers of these greetings to olde </l>
+           <l> Norway, giving to you no further personall power </l>
+           <l> To businesse with the King, </l>
+           <l> Then those related articles do shew: </l> 
+           <l> Farewell,and let your hafte commend your dutie. </l>
+           </sp>
+           <sp who="#gertrude" xml:lang="eng" xml:id="m7v1v4x9b2_eng" corresp="#m7v1v4x9b2_spa">
+            <speaker>Gertrude</speaker>
+           <l> ln this and all things will wee shew our dutie. </l> 
+           </sp>
+          </rdg>
+          </app>
 
           <sp who="#king" xml:lang="eng" xml:id="m7k1v4x9b2_eng" corresp="#m7k1v4x9b2_spa">
             <speaker>King</speaker>
             <l>We doubt it nothing. Heartily farewell.</l>
-            <stage>[Exeunt Voltemand and Cornelius.]</stage>
+          <app>
+            <lem>
+            <stage>[Exeunt Voltemand and Cornelius.]</stage></lem>
+            <rdg wit="#Q1" type="variation-absent"></rdg>
+            </app>
           </sp>
-          <sp who="#king" xml:lang="spa" xml:id="m7k1v4x9b2_spa" corresp="#m7k1v4x9b2_eng">
-            <speaker>Rey</speaker>
-            <l>No lo dudamos. Un sentido hasta pronto.</l>
-            <stage>[Salen Voltemand y Cornelio.]</stage>
-          </sp>
+          
+          <app xml:id="u3k_1b7_lhc">
+            <lem wit="#Q2 #F1">
           <sp who="#king" xml:lang="eng" xml:id="r5m8k2v9x3_eng" corresp="#r5m8k2v9x3_spa">
             <speaker>King</speaker>
             <l>And now, Laertes, what's the news with you?</l>
-            <l>You told us of some suit. What is't, Laertes?</l>
+            <l>You told us of some suit. What is't, Laertes?</l>            
             <l>You cannot speak of reason to the Dane</l>
             <l>And lose your voice. What wouldst thou beg, Laertes,</l>
             <l>That shall not be my offer, not thy asking?</l>
@@ -322,19 +307,6 @@
             <l>Than is the throne of Denmark to thy father.</l>
             <l>What wouldst thou have, Laertes?</l>
           </sp>
-          <sp who="#king" xml:lang="spa" xml:id="r5m8k2v9x3_spa" corresp="#r5m8k2v9x3_eng">
-            <speaker>Rey</speaker>
-            <l>Y ahora, Laertes, ¿qué nuevas contigo?</l>
-            <l>Nos hablaste de un asunto. ¿Qué es, Laertes?</l>
-            <l>No puedes hablar al Danés con razón</l>
-            <l>y perder tu voz. ¿Qué pedirías, Laertes,</l>
-            <l>que no sea mi ofrecimiento antes que tu petición?</l>
-            <l>La cabeza no es más propia del corazón,</l>
-            <l>ni la mano más del instrumento de la boca,</l>
-            <l>que el trono de Dinamarca de tu padre.</l>
-            <l>¿Qué quieres, Laertes?</l>
-          </sp>
-
           <sp who="#laertes" xml:lang="eng" xml:id="x8v3m9k2b5_eng" corresp="#x8v3m9k2b5_spa">
             <speaker>Laertes</speaker>
             <l>Dread my lord,</l>
@@ -345,66 +317,98 @@
             <l>My thoughts and wishes bend again toward France</l>
             <l>And bow them to your gracious leave and pardon.</l>
           </sp>
-          <sp who="#laertes" xml:lang="spa" xml:id="x8v3m9k2b5_spa" corresp="#x8v3m9k2b5_eng">
-            <speaker>Laertes</speaker>
-            <l>Temible señor,</l>
-            <l>vuestro permiso y favor para volver a Francia,</l>
-            <l>de donde, aunque de buen grado vine a Dinamarca</l>
-            <l>para mostrar mi deber en vuestra coronación,</l>
-            <l>ahora debo confesar, hecho ese deber,</l>
-            <l>mis pensamientos y deseos se inclinan de nuevo hacia Francia</l>
-            <l>y se someten a vuestro gracioso permiso y perdón.</l>
-          </sp>
-
           <sp who="#king" xml:lang="eng" xml:id="m4k1v8x9b2_eng" corresp="#m4k1v8x9b2_spa">
             <speaker>King</speaker>
             <l>Have you your father's leave? What says Polonius?</l>
           </sp>
-          <sp who="#king" xml:lang="spa" xml:id="m4k1v8x9b2_spa" corresp="#m4k1v8x9b2_eng">
-            <speaker>Rey</speaker>
-            <l>¿Tienes el permiso de tu padre? ¿Qué dice Polonio?</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"></rdg>
+          <rdg wit="#Q1" type="variation-present">
+          <sp who="#laertes" xml:lang="eng" xml:id="m7k1v1x9b2_eng" corresp="#m7k1v1x9b2_spa">
+            <speaker>Laertes</speaker>
+          <l> My gratious Lord, your fauorable licence,</l>
+          <l> Now that the funerall rites are all performed, </l>
+          <l> I may have leave to go againe to France, </l>
+          <l> For though the favour of your grace might stay mee, </l>
+          <l> Yet something is there whispersin my hart, </l>
+          <l> Which makes my minde and spirits bend all for France.</l> 
           </sp>
+          <sp who="#king" xml:lang="eng" xml:id="m7k1v4x1b2_eng" corresp="#m7k1v4x1b2_spa">
+            <speaker>King</speaker>
+          <l> Have you your fathers leave, Leartes?</l>
+          </sp>
+           </rdg>
+          </app> 
 
+          <app>
+          <lem>
           <sp who="#polonius" xml:lang="eng" xml:id="b7x3m2k9v4_eng" corresp="#b7x3m2k9v4_spa">
             <speaker>Polonius</speaker>
-            <l>He hath, my lord, 
+            <l>He hath, my lord,             
               <app>
                <lem>wrung from me my slow leave
             By laborsome petition, and at last
-            Upon his will I sealed my hard consent.
-          </lem>
+            Upon his will I sealed my hard consent.</lem>
               <rdg wit="#F1" type="variation-absent"></rdg>
             </app></l>
             <l>I do beseech you, give him leave to go.</l>
-          </sp>
-          <sp who="#polonius" xml:lang="spa" xml:id="b7x3m2k9v4_spa" corresp="#b7x3m2k9v4_eng">
-            <speaker>Polonio</speaker>
-            <l>Él, mi señor, arrancó de mí mi lento permiso</l>
-            <l>con laboriosa petición, y al fin</l>
-            <l>sobre su voluntad puse mi duro consentimiento.</l>
-            <l>Os lo ruego, dadle licencia para ir.</l>
-          </sp>
+             </sp>
+            </lem>
+            <rdg wit="#Q1" type="variation-absent"></rdg>
+             <rdg wit="#Q1" type="variation-present">
+            <sp who="#corambis" xml:lang="eng" xml:id="m7k1v4x9b1_eng" corresp="#m7k1v4x9b1_spa">
+            <speaker>Corambis</speaker>
+            <l>He hath, my lord ,wrung from me a forced graunt,
+             And I beseech you grant your Highnesse leave. </l>
+            </sp>
+            </rdg>
+            </app>
+          
+          
 
           <sp who="#king" xml:lang="eng" xml:id="v6m9k3b2x8_eng" corresp="#v6m9k3b2x8_spa">
             <speaker>King</speaker>
+            <l></l>
+            <app>
+            <lem>
             <l>Take thy fair hour, Laertes, time be thine,</l>
             <l>And thy best graces spend it at thy will.</l>
-          </sp>
-          <sp who="#king" xml:lang="spa" xml:id="v6m9k3b2x8_spa" corresp="#v6m9k3b2x8_eng">
-            <speaker>Rey</speaker>
-            <l>Toma tu bella hora, Laertes, el tiempo es tuyo,</l>
-            <l>y tus mejores gracias gástalas a tu albedrío.</l>
-          </sp>
+            </lem>
+            <rdg wit="#Q1">With all our heart, Leartes fare thee well.</rdg>
+            </app>
+            </sp>
+            <app>
+            <rdg wit="#Q1" type="variation-present"> 
+            <sp who="#laertes" xml:lang="eng" xml:id="v6m9kqb2x8_eng" corresp="#v6m9kqb2x8_spa">
+            <speaker>Laertes</speaker> 
+              <l>I in all love and dutie take my leave.</l>  
+            </sp>
+            </rdg>
+            </app>
 
           <sp who="#king" xml:lang="eng" xml:id="k9x2m7v3b4_eng" corresp="#k9x2m7v3b4_spa">
             <speaker>King</speaker>
+            <l></l>
+            <app>
+            <lem>
             <l>But now, my cousin Hamlet, and my son—</l>
+            </lem>
+            <rdg wit="#Q1">And now princely Sonne Hamlet,</rdg>
+            </app>
+            <app>
+            <rdg wit="#Q1" type="variation-present"> 
+            <l>What meanes these sad and melancholy moodes?</l>
+            <l>For your intent going to Wittenberg,</l>
+            <l>Wee hold it most unmeet and unconvenient,</l>
+            <l>Being the loy and halfe heart of your mother </l>
+            <l>Therefore let mee intreat you stay in Court,</l>
+            <l>All Denmarket hope our coosin and dearest Sonne.</l>  
+            </rdg>
+            </app>
           </sp>
-          <sp who="#king" xml:lang="spa" xml:id="k9x2m7v3b4_spa" corresp="#k9x2m7v3b4_eng">
-            <speaker>Rey</speaker>
-            <l>Mas ahora, mi primo Hamlet, y mi hijo—</l>
-          </sp>
-
+          
+          <app xml:id="u3h_1b7_ghc">
+            <lem>
           <sp who="#hamlet" xml:lang="eng" xml:id="q3v8m1k7b9_eng" corresp="#q3v8m1k7b9_spa">
             <speaker>Hamlet</speaker>
             <l>[Aside] A little more </l>
@@ -420,29 +424,14 @@
             </app>
               <l>kind.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="spa" xml:id="q3v8m1k7b9_spa" corresp="#q3v8m1k7b9_eng">
-            <speaker>Hamlet</speaker>
-            <l>[Aparte] Un poco más que pariente y menos que amable.</l>
-          </sp>
-
           <sp who="#king" xml:lang="eng" xml:id="x5b2k9m3v8_eng" corresp="#x5b2k9m3v8_spa">
             <speaker>King</speaker>
             <l>How is it that the clouds still hang on you?</l>
           </sp>
-          <sp who="#king" xml:lang="spa" xml:id="x5b2k9m3v8_spa" corresp="#x5b2k9m3v8_eng">
-            <speaker>Rey</speaker>
-            <l>¿Cómo es que las nubes aún cuelgan sobre ti?</l>
-          </sp>
-
           <sp who="#hamlet" xml:lang="eng" xml:id="m1v7k3x9b5_eng" corresp="#m1v7k3x9b5_spa">
             <speaker>Hamlet</speaker>
             <l>Not so, my lord, I am too much i' the sun.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="m1v7k3x9b5_spa" corresp="#m1v7k3x9b5_eng">
-            <speaker>Hamlet</speaker>
-            <l>No tanto, mi señor, estoy demasiado al sol.</l>
-          </sp>
+          </sp>       
           <sp who="#queen" xml:lang="eng" xml:id="b4m9k2x7v3_eng" corresp="#b4m9k2x7v3_spa">
             <speaker>Queen</speaker>
             <l>Good Hamlet, cast thy nighted color off,</l>
@@ -452,36 +441,15 @@
             <l>Thou know’st ’tis common: all that lives must die,</l>
             <l>Passing through nature to eternity.</l>
           </sp>
-          <sp who="#queen" xml:lang="spa" xml:id="b4m9k2x7v3_spa" corresp="#b4m9k2x7v3_eng">
-            <speaker>Reina</speaker>
-            <l>Buen Hamlet, quítate ese color de luto,</l>
-            <l>y deja que tu ojo mire amistoso a Dinamarca.</l>
-            <l>No busques siempre con párpados velados</l>
-            <l>a tu noble padre en el polvo.</l>
-            <l>Sabes que es común: todo lo que vive ha de morir,</l>
-            <l>pasando por la naturaleza a la eternidad.</l>
-          </sp>
-
           <sp who="#hamlet" xml:lang="eng" xml:id="v9k2m3x8b5_eng" corresp="#v9k2m3x8b5_spa">
             <speaker>Hamlet</speaker>
             <l>Ay, madam, it is common.</l>
           </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="v9k2m3x8b5_spa" corresp="#v9k2m3x8b5_eng">
-            <speaker>Hamlet</speaker>
-            <l>Ay, señora, es común.</l>
-          </sp>
-
           <sp who="#queen" xml:lang="eng" xml:id="m2x9k7b3v4_eng" corresp="#m2x9k7b3v4_spa">
             <speaker>Queen</speaker>
             <l>If it be,</l>
             <l>Why seems it so particular with thee?</l>
           </sp>
-          <sp who="#queen" xml:lang="spa" xml:id="m2x9k7b3v4_spa" corresp="#m2x9k7b3v4_eng">
-            <speaker>Reina</speaker>
-            <l>Si lo es,</l>
-            <l>¿Por qué te parece a ti tan particular?</l>
-          </sp>
-
           <sp who="#hamlet" xml:lang="eng" xml:id="k7b5m3x2v9_eng" corresp="#k7b5m3x2v9_spa">
             <speaker>Hamlet</speaker>
             <l>Seems, madam? Nay, it is. I know not “seems.”</l>
@@ -496,21 +464,6 @@
             <l>But I have that within which passes show—</l>
             <l>These but the trappings and the suits of woe.</l>
           </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="k7b5m3x2v9_spa" corresp="#k7b5m3x2v9_eng">
-            <speaker>Hamlet</speaker>
-            <l>¿Parecer, señora? No, es. Yo no sé de “parecer”.</l>
-            <l>No es solo mi manto negro, buena madre,</l>
-            <l>ni trajes acostumbrados de luto solemne,</l>
-            <l>ni el suspiro ventoso de respiro forzado,</l>
-            <l>no, ni el río fecundo en el ojo,</l>
-            <l>ni el abatido gesto del rostro,</l>
-            <l>junto con todas las formas, modos, apariencias del duelo,</l>
-            <l>lo que pueda representarme en verdad. Eso sí “parece”,</l>
-            <l>pues son acciones que cualquiera podría actuar;</l>
-            <l>mas yo tengo dentro lo que excede a la muestra,</l>
-            <l>estos no son más que adornos y vestidos del pesar.</l>
-          </sp>
-
           <sp who="#king" xml:lang="eng" xml:id="x3m9v2k7b5_eng" corresp="#x3m9v2k7b5_spa">
             <speaker>King</speaker>
             <l>’Tis sweet and commendable in your nature, Hamlet,</l>
@@ -523,32 +476,23 @@
             <l>Of impious stubbornness. ’Tis unmanly grief.</l>
             <app>
               <lem n="."></lem>
-              <rdg wit="#F1" type="variation-present">Of impious stubbornncssc. ’Tis vnmanly greefc,
-                It shewes a will most incorrect to Hcauen, 
-                A Heart vnfortified, a Mindc impatient, 
-                An Vnderstanding simple, and vnschool’d:
-                For, what we know must be, and is as common 
-                As any the most vulgar thing to sencc, 
-                Why should we in our pecuish Opposition too
-                ake it to heart? Fye, ’tis a fault to Heauen, tot
-                A fault against the Dead, a fault to Nature, 
-                To Reason most absurd, whose common Theame
-                Is death of Fathers, and who still hath cried, 
-                From the first Coarse, till he that dyed to day, 
-                This must be so.</rdg>              
+              <rdg wit="#F1" type="variation-present">
+               <l> Of impious stubbornncssc. ’Tis vnmanly greefc,</l>
+               <l> It shewes a will most incorrect to Hcauen, </l>
+               <l> A Heart vnfortified, a Mindc impatient, </l>
+               <l> An Vnderstanding simple, and vnschool’d:</l>
+               <l>For, what we know must be, and is as common </l>
+                <l>As any the most vulgar thing to sencc, </l>
+                <l>Why should we in our pecuish Opposition too </l>
+                <l>take it to heart? Fye, ’tis a fault to Heauen, tot </l>
+                <l>A fault against the Dead, a fault to Nature, </l>
+                <l>To Reason most absurd, whose common Theame </l>
+                <l>Is death of Fathers, and who still hath cried, </l>
+                <l>From the first Coarse, till he that dyed to day, </l>
+                <l>This must be so. </l>
+              </rdg>              
             </app>
-          </sp>
-          <sp who="#king" xml:lang="spa" xml:id="x3m9v2k7b5_spa" corresp="#x3m9v2k7b5_eng">
-            <speaker>Rey</speaker>
-            <l>Dulce y loable es en tu naturaleza, Hamlet,</l>
-            <l>dar estos deberes de luto a tu padre.</l>
-            <l>Mas debes saber que tu padre perdió a su padre,</l>
-            <l>ese padre perdido, perdió al suyo, y el que sobrevive</l>
-            <l>está obligado en deber filial por algún tiempo</l>
-            <l>a mostrar duelo debido. Mas perseverar</l>
-            <l>en obstinado condolerse es camino</l>
-            <l>de impía terquedad. Es duelo poco varonil.</l>
-          </sp>
+          </sp>  
           <sp who="#king" xml:lang="eng" xml:id="m7v3k9x2b5_eng" corresp="#m7v3k9x2b5_spa">
             <speaker>King</speaker>
             <l>We pray you, throw to earth</l>
@@ -564,44 +508,50 @@
             <l>Here in the cheer and comfort of our eye,</l>
             <l>Our chiefest courtier, cousin, and our son.</l>
           </sp>
-          <sp who="#king" xml:lang="spa" xml:id="m7v3k9x2b5_spa" corresp="#m7v3k9x2b5_eng">
-            <speaker>Rey</speaker>
-            <l>Te rogamos, arroja a tierra</l>
-            <l>este luto inútil, y piénsanos</l>
-            <l>como a un padre. Pues sepa el mundo</l>
-            <l>que eres el más inmediato a nuestro trono,</l>
-            <l>y con no menos nobleza de amor</l>
-            <l>que el más caro padre a su hijo</l>
-            <l>te impartimos. Y en cuanto a tu intención</l>
-            <l>de volver a la escuela en Wittenberg,</l>
-            <l>es lo más contrario a nuestro deseo,</l>
-            <l>y te suplicamos inclinarte a quedarte</l>
-            <l>aquí en el consuelo y alegría de nuestro ojo,</l>
-            <l>nuestro principal cortesano, primo y nuestro hijo.</l>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"></rdg>
+          <rdg wit="#Q1" type="variation-present">
+          <sp who="#hamlet" xml:lang="eng" xml:id="m7v3d9x2b5_eng" corresp="#m7v3d9x2b5_spa">
+          <speaker>Hamlet</speaker>
+          <l> My lord, it's not the sable sute I weares </l>
+          <l> No nor the teares that still stand in my eyes,</l>
+          <l> Nor the distracted hauiour in the vilage,</l>
+          <l> Nor all together m ixt with outward semmblance,</l>
+          <l> Is equall to the forroW of my heart,</l>
+          <l> Him haue I lost I must offerce forgoe,</l>
+          <l> These but the ornaments and sutes of woe.</l>
           </sp>
+          <sp who="#king" xml:lang="eng" xml:id="m7v339x2b5_eng" corresp="#m7v339x2b5_spa">
+          <speaker>King</speaker>
+          <l>This chewes a loving care in you, Sonne Hamlet,</l>
+          <l>But you must thinke your father lost a father,</l>
+          <l>That father dead, lost his and so shalbe untill the</l>
+          <l>Generall ending. Therefore cease laments,</l>
+          <l>It is a fault gainss heaven, fault gainst the dead,</l>
+          <l>A fault gainst nature, and in reasons</l>
+          <l>Common course most certaine, </l>
+          <l>None lives on earth, but hee is borne to die</l>
+          </sp>
+          </rdg>
+          </app>
+          
 
           <sp who="#queen" xml:lang="eng" xml:id="x4k9m2b7v3_eng" corresp="#x4k9m2b7v3_spa">
             <speaker>Queen</speaker>
             <l>Let not thy mother lose her prayers, Hamlet.</l>
             <l>I pray thee stay with us, go not to Wittenberg.</l>
           </sp>
-          <sp who="#queen" xml:lang="spa" xml:id="x4k9m2b7v3_spa" corresp="#x4k9m2b7v3_eng">
-            <speaker>Reina</speaker>
-            <l>No dejes que tu madre pierda sus ruegos, Hamlet.</l>
-            <l>Te ruego quedarte con nosotros, no vayas a Wittenberg.</l>
-          </sp>
+          
 
           <sp who="#hamlet" xml:lang="eng" xml:id="b2m9k3x7v5_eng" corresp="#b2m9k3x7v5_spa">
             <speaker>Hamlet</speaker>
             <l>I shall in all my best obey you, madam.</l>
           </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="b2m9k3x7v5_spa" corresp="#b2m9k3x7v5_eng">
-            <speaker>Hamlet</speaker>
-            <l>He de obedecerte en todo lo mejor, señora.</l>
-          </sp>
 
           <sp who="#king" xml:lang="eng" xml:id="k8x3v7b2m9_eng" corresp="#k8x3v7b2m9_spa">
             <speaker>King</speaker>
+           <app>
+            <lem>
             <l>Why, ’tis a loving and a fair reply.</l>
             <l>Be as ourself in Denmark. Madam, come.</l>
             <l>This gentle and unforced accord of Hamlet</l>
@@ -609,6 +559,15 @@
             <l>No jocund health that Denmark drinks today</l>
             <l>But the great cannon to the clouds shall tell,</l>
             <l>Re-speaking earthly thunder. Come away.</l>
+            </lem>
+            <rdg wit="#Q1" type="variation-absent"></rdg>
+            <rdg wit="#Q1" type="variation-present">
+            <l> Spoke like a kinde and a most loving Sonne,</l>
+            <l> And there's no healt the King shall drinke today,</l>
+            <l>But the great Canon to the clowdes shall tell</l>
+            <l>The rowfe the King shall drinke unto Prince Hamlet. </l>
+            </rdg>
+          </app>
             <stage>[Exeunt 
               <app>
                 <lem>King, Queen, Polonius, Laertes, and all but Hamlet.</lem>
@@ -618,19 +577,14 @@
                 <lem n="."></lem>
                 <rdg wit="#F1" type="variation-present">Manet Hamlet.</rdg>
               </app>
-          </sp>
-          <sp who="#king" xml:lang="spa" xml:id="k8x3v7b2m9_spa" corresp="#k8x3v7b2m9_eng">
-            <speaker>Rey</speaker>
-            <l>He ahí una respuesta amorosa y justa.</l>
-            <l>Sé como nosotros mismos en Dinamarca. Señora, venid.</l>
-            <l>Este amable y no forzado acuerdo de Hamlet</l>
-            <l>sonríe a mi corazón. En gracia de esto</l>
-            <l>ningún brindis jocundo beba hoy Dinamarca</l>
-            <l>sin que el gran cañón a las nubes lo diga,</l>
-            <l>resonando trueno terrenal. Venid.</l>
-            <stage>[Salen Rey, Reina, Polonio, Laertes y todos menos Hamlet.]</stage>
-          </sp>
+              <app>
+                <lem n="."></lem>
+                <rdg wit="#Q1" type="variation-present">Exeunt all but Hamlet</rdg>
+              </app>
+            </sp>   
 
+          <app>
+            <lem>
           <sp who="#hamlet" xml:lang="eng" xml:id="v3b7k9x2m5_eng" corresp="#v3b7k9x2m5_spa">
             <speaker>Hamlet</speaker>
             <l>O that this too too solid flesh would melt,</l>
@@ -640,7 +594,12 @@
             </app>
             <l>Thaw, and resolve itself into a dew,</l>
             <l>Or that the Everlasting had not fix’d</l>
-            <l>His canon ’gainst self-slaughter! O God, God!</l>
+            <l>His canon ’gainst 
+              <app>
+                <lem> self-slaughter!</lem>
+                <rdg wit="#F1"> seale slaughter</rdg>
+
+                </app> O God, God!</l>
             <l>How weary, stale, flat and unprofitable</l>
             <l>Seem to me all the uses of this world
               <app>
@@ -662,24 +621,833 @@
               </app>
               <app>
                 <lem n="remember"></lem>
-                <rdg wit="#F1" type="variation-present">why she would hang on him,
-                As if encrease of Appetite had growne
-                By what it fed on; and yet within a month?
-                Let me not thinke on’t: Frailty, thy name is woman.
-                A little Month, or ere those shooes were old,
-                With which she followed my poore Fathers body
-                Like Niobe, all teares. Why she, euen she.
-                (O Heauen! A beast that wants discourse of Reason
-                Would haue mourn’d longer) married with mine Vnkle,
-                My Fathers Brother: but no more like my Father,
-                Then I to Hercules. Within a Moneth?
-                Ere yet the salt of most vnrighteous Teares
-                Had left the flushing of her gauled eyes,
-                She married. O most wicked speed, to post
-                With such dexterity to Incestuous sheets:</rdg>
+                <rdg wit="#F1" type="variation-present">
+              <l>  why she would hang on him, </l> 
+              <l>  As if encrease of Appetite had growne </l> 
+              <l>  By what it fed on; and yet within a month?</l> 
+              <l>  Let me not thinke on’t: Frailty, thy name is woman.</l> 
+              <l>  A little Month, or ere those shooes were old,</l> 
+              <l>  With which she followed my poore Fathers body</l> 
+              <l>  Like Niobe, all teares. Why she, euen she.</l> 
+              <l>  (O Heauen! A beast that wants discourse of Reason</l> 
+              <l>  Would haue mourn’d longer) married with mine Vnkle,</l> 
+              <l>  My Fathers Brother: but no more like my Father,</l> 
+              <l>  Then I to Hercules. Within a Moneth? </l> 
+              <l>  Ere yet the salt of most vnrighteous Teares </l> 
+              <l>  Had left the flushing of her gauled eyes, </l> 
+              <l>  She married. O most wicked speed, to post </l> 
+              <l>  With such dexterity to Incestuous sheets:</l> 
+              </rdg>
               </app>
+          </sp> 
+          <sp who="#hamlet" xml:lang="eng" xml:id="b5k9m3x7v2_eng" corresp="#b5k9m3x7v2_spa">
+            <speaker>Hamlet</speaker>
+            <l>It is not, nor it cannot come to good.</l>
+            <l>But break, my heart, for I must hold my tongue.</l>
           </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="v3b7k9x2m5_spa" corresp="#v3b7k9x2m5_eng">
+          </lem>
+           <rdg wit="#Q1" type="variation-absent"></rdg>
+            <rdg wit="#Q1" type="variation-present">
+            <l>  On that this too much griev'd and fallied flesh</l>
+            <l>  Would melt to nothing,or that the universalL </l>
+            <l>  Globe of heaven would turne al to a Chaos</l>
+            <l>  O God within two months; no not two: married,</l>
+            <l>  Mine uncle: O let me not thinke of it</l>
+            <l>  My fathers brother: but no more like</l>
+            <l>  My father, then I to Hercules.</l>
+            <l>  Within two months, ere yet the salt of most</l>
+            <l>  Unrighteous teates had left their flufhing </l>
+            <l>  In her galled eyes: the married, O God, a beast</l>
+            <l>  Deuoyd ofreason would not have made</l>
+            <l>  Such speede: Frailtie, thy name is Woman,</l>
+            <l>  Why she would hang on him, as if increase</l>
+            <l>  Of appetite had growne by what it looked on</l>
+            <l>  O wicked wicked speede, to make such</l>
+            <l>  Dexteritie to incestuous sheetes,</l>
+            <l>  Ere yet the shooes were olde,</l>
+            <l>  The which the followed my dead fathets corse</l>
+            <l>  Like Nyobe, all teares: married, well it is not,</l>
+            <l>  Nor it cannot come to good:</l>
+            <l>  But breake my heart, for i must holde my tongue.</l>
+            </rdg>
+        </app>
+
+          <stage xml:lang="eng" xml:id="x7m2k9v3b5_eng" corresp="#x7m2k9v3b5_spa">Enter Horatio, Marcellus
+            <app>
+              <lem>, and Bernardo.</lem>
+              <rdg wit="#F1" type="variation-absent"></rdg>
+            </app>
+          </stage>
+
+          <sp who="#horatio" xml:lang="eng" xml:id="m9k2v4x3b7_eng" corresp="#m9k2v4x3b7_spa">
+            <speaker>Horatio</speaker>
+            <l>Hail to your lordship!</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="k3b7v9x2m5_eng" corresp="#k3b7v9x2m5_spa">
+            <speaker>Hamlet</speaker>
+            <l></l>
+             <app>
+              <lem>
+                <l>I am glad to see you well. Horatio—or I do forget myself!</l>
+              </lem>
+              <rdg wit="#F1">
+                <l>I am glad to see you well.</l> 
+                <l>Horatio—or I do forget myself!</l>
+              </rdg>
+            </app> 
+          </sp>
+          
+
+          <sp who="#horatio" xml:lang="eng" xml:id="v4m2k7x9b3_eng" corresp="#v4m2k7x9b3_spa">
+            <speaker>Horatio</speaker>
+            <l>The same, my lord, and your poor servant ever.</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="x2b9m7k3v5_eng" corresp="#x2b9m7k3v5_spa">
+            <speaker>Hamlet</speaker>
+            <l>Sir, my good friend—I'll change that name with you.</l>
+            <l>And what make you from Wittenberg, Horatio?</l>
+            <app>
+              <lem>-Marcellus?</lem>
+              <rdg wit="#F1" type="variation-absent"></rdg>
+            </app>
+          </sp>
+          
+
+          <sp who="#marcellus" xml:lang="eng" xml:id="m4v9k2x7b3_eng" corresp="#m4v9k2x7b3_spa">
+            <speaker>Marcellus</speaker>
+            <l>My good lord—</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="b9x3m2v7k5_eng" corresp="#b9x3m2v7k5_spa">
+            <speaker>Hamlet</speaker>
+            <l>I am very glad to see you. Good even, sir.</l>
+          <app>
+            <lem wit="#F1"> <l>But what in faith make you from Wittenberg?</l></lem>
+            <rdg wit="#Q1">l<l>But what is your affaire in Elsenoure?</l> </rdg>
+            </app>
+          <app>
+            <lem n="?"> </lem> 
+            <rdg wit="#Q1" type="variation-present"> Weele teach you to drinke deepe are you depart.</rdg> 
+            </app>
+          </sp>
+
+          <sp who="#horatio" xml:lang="eng" xml:id="k7m5v9x3b2_eng" corresp="#k7m5v9x3b2_spa">
+            <speaker>Horatio</speaker>
+            <l>A truant disposition, good my lord.</l>
+          </sp>
+        <app>
+          <lem>
+          <sp who="#hamlet" xml:lang="eng" xml:id="x3v7k5m2b9_eng" corresp="#x3v7k5m2b9_spa">
+            <speaker>Hamlet</speaker>
+            <l>I would not hear your enemy say so,</l>
+            <l>Nor shall you do my ear that violence</l>
+            <l>To make it truster of your own report</l>
+            <l>Against yourself. I know you are no truant.</l>
+            <l>But what is your affair in Elsinore?</l>
+            <l>We'll teach you to drink deep ere you depart.</l>
+          </sp>
+          </lem>
+          <rdg wit="#Q1" type="variation-absent"></rdg>
+          <rdg wit="#Q1" type="variation-present">
+           <l> Nor shall you make mee truster</l>
+           <l> Of your owne report against your selfe:</l>
+           <l> Sir, I know you are no trowant:</l>
+           <l> But what is your affaire in Elsenoure</l>
+          </rdg>
+          </app>
+
+          <sp who="#horatio" xml:lang="eng" xml:id="v2k9m3x7b5_eng" corresp="#v2k9m3x7b5_spa">
+            <speaker>Horatio</speaker>
+            <l> My 
+          <app> 
+              <lem n="My"></lem>
+              <rdg wit="#Q1" type="variation-present">good</rdg>
+          </app> 
+             lord, I came to see your father’s funeral.</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="m3x9b2v7k4_eng" corresp="#m3x9b2v7k4_spa">
+            <speaker>Hamlet</speaker>
+            <l>I prithee do not mock me, fellow student.</l>
+            <l>I think it was to 
+              <app>
+              <lem>see</lem>
+              <rdg wit="#F1">not in</rdg>
+            </app> my mother’s wedding.</l>
+          </sp>
+          
+
+          <sp who="#horatio" xml:lang="eng" xml:id="k9v7m2x3b5_eng" corresp="#k9v7m2x3b5_spa">
+            <speaker>Horatio</speaker>
+            <l>Indeed, my lord, it followed hard upon.</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="x5b3m9v2k7_eng" corresp="#x5b3m9v2k7_spa">
+            <speaker>Hamlet</speaker>
+            <l>Thrift, thrift, Horatio! The funeral baked meats</l>
+            <l>Did coldly furnish forth the marriage tables.</l>
+            <l>Would I had met my dearest foe in heaven</l>
+            <l>Or ever I had seen that day, Horatio.</l>
+            <app>
+              <lem n="Horatio."> </lem>
+              <rdg wit="#Q1" type="variation-present">O my father </rdg>
+            </app>
+            <l> My father methinks I see my father.</l>
+          </sp>
+          
+          
+          <sp who="#horatio" xml:lang="eng" xml:id="m7k2v9x3b5_eng" corresp="#m7k2v9x3b5_spa">
+            <speaker>Horatio</speaker>
+            <l>Where, my lord?</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="b3v9k7x2m5_eng" corresp="#b3v9k7x2m5_spa">
+            <speaker>Hamlet</speaker>
+            <app>
+              <lem n="lord."> </lem>
+              <rdg wit="#Q1" type="variation-present"> Why </rdg>
+            </app>
+            <l>In my mind’s eye Horatio.</l>
+          </sp>
+          
+
+          <sp who="#horatio" xml:lang="eng" xml:id="k9x3m2v7b5_eng" corresp="#k9x3m2v7b5_spa">
+            <speaker>Horatio</speaker>
+            <l>I saw him once. He was a 
+              <app>
+                <lem wit="#F1">goodly</lem>
+                <rdg wit= "#Q1">gallant</rdg>
+              </app>
+              king.</l>
+          </sp>
+          
+          <sp who="#hamlet" xml:lang="eng" xml:id="v2m5k9x3b7_eng" corresp="#v2m5k9x3b7_spa">
+            <speaker>Hamlet</speaker>
+            <l>He was a man. Take him for all in all.</l>
+            <l>I shall not look upon his like again.</l>
+          </sp>
+          
+
+          <sp who="#horatio" xml:lang="eng" xml:id="m4b9k2x7v3_eng" corresp="#m4b9k2x7v3_spa">
+            <speaker>Horatio</speaker>
+            <l>My lord, I think I saw him yesternight.</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="b7v3k9x2m5_eng" corresp="#b7v3k9x2m5_spa">
+            <speaker>Hamlet</speaker>
+            <l>Saw? Who?</l>
+          </sp>
+          
+
+          <sp who="#horatio" xml:lang="eng" xml:id="x9m2v7k3b5_eng" corresp="#x9m2v7k3b5_spa">
+            <speaker>Horatio</speaker>
+            <l>My lord, the king your father.</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="m2k7v9x3b5_eng" corresp="#m2k7v9x3b5_spa">
+            <speaker>Hamlet</speaker>
+            <l></l>
+            <app>
+              <lem>
+            <l>The king my father!</l>
+            </lem>
+            <rdg wit="#Q1" >Ha, ha, the King my father ke you</rdg>
+            </app>
+          </sp>
+          
+
+          <sp who="#horatio" xml:lang="eng" xml:id="v5x3m9k2b7_eng" corresp="#v5x3m9k2b7_spa">
+            <speaker>Horatio</speaker>
+            <l>Season your admiration for a while</l>
+            <l>With an attent ear, till I may deliver</l>
+            <l>Upon the witness of these gentlemen</l>
+            <l>This 
+            <app>
+            <lem wit="#F1">marvel</lem>
+            <rdg wit="#Q1" >Ha, ha, the King my father ke you</rdg>
+            </app>
+             to you.</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="k3b9m2v7x5_eng" corresp="#k3b9m2v7x5_spa">
+            <speaker>Hamlet</speaker>
+            <l>For 
+              <app>
+               <lem>God’s</lem> 
+               <rdg wit="#F1">heavens</rdg>
+              </app>
+              love, let me hear<app>
+               <lem>!</lem> 
+               <rdg wit="#Q1">it</rdg>
+              </app>
+            </l> 
+          </sp>
+          
+          <sp who="#horatio" xml:lang="eng" xml:id="m9v7k2x3b5_eng" corresp="#m9v7k2x3b5_spa">
+            <speaker>Horatio</speaker>
+            <l>Two nights together had these gentlemen,</l>
+            <l>Marcellus and Bernardo, on their watch</l>
+            <l>In the dead vast and middle of the night,</l>
+            <l>Been thus encounter’d: a figure like your father,</l>
+            <l>Armed at
+              <app>
+                <lem n="at"></lem>
+                <rdg wit="#F1" type="variation-present">all points</rdg>
+                <rdg wit="#Q1" type="variation-present">all points</rdg>
+              </app> 
+               exactly, cap-à-pie,</l>
+            <l>Appears before them and with solemn march</l>
+            <l>Goes slow and stately by them. Thrice he walk’d</l>
+            <l>By their oppressèd and fear-surprisèd eyes</l>
+            <l>Within his truncheon’s length, whilst they distill’d</l>
+            <l>Almost to jelly with the act of fear</l>
+            <l>Stand dumb and speak not to him.</l>
+              <app>
+                <lem n="."></lem>
+                <rdg wit="#F1" type="variation-present">
+               <l> This to me </l> 
+              <l>  In dreadful I sccrecie impart they did,</l> 
+              <l>  And I with them the third Night kept the Watch,</l>
+              <l>  Whereas they had deliver’d both in time, </l>
+              <l>  Forme of the thing; each word made true and good,</l> 
+              <l>  The Apparition comes. I knew your Father:</l>
+              <l>  These hands are not more like.</l>
+              <sp who="#hamlet" xml:lang="eng" xml:id="w3k9x2m7b5_eng" corresp="#w3k9x2m7b5_spa">
+              <speaker>Hamlet</speaker>  
+              <l>  But where was this?</l> 
+              </sp>
+              <sp who="#marcellus" xml:lang="eng" xml:id="w3k8x2m7b5_eng" corresp="#w3k8x2m7b5_spa">
+              <speaker>Marcellus</speaker>
+              <l>  My Lord, upon the platforme where we watcht.</l> 
+              </sp>
+                </rdg>
+              <rdg wit="#Q1" type="variation-present">
+                <sp who="#horatio" xml:lang="eng" xml:id="m3v7k2x3b5_eng" corresp="#m3v7k2x3b5_spa">
+            <speaker>Horatio</speaker>
+              <l> And speake not to him: this to mee</l> 
+              <l>In dreadfull fecrefie impart they did.</l> 
+              <l>Where as they had deliuered forme of the thing.</l> 
+              <l>Bach part made true and good,</l> 
+              <l>The Apparition comes: I knew your father,</l> 
+              <l>These handes are not more like.</l> 
+              </sp>
+              <sp who="#hamlet" xml:lang="eng" xml:id="m9v7kex7b5_eng" corresp="#m9v7kex7b5_spa">
+            <speaker>Hamlet</speaker>
+              <l>Tis very strange.</l> 
+              </sp>
+              <sp who="#horatio" xml:lang="eng" xml:id="m9v7kex3b5_eng" corresp="#m9v7kex3b5_spa">
+            <speaker>Horatio</speaker>
+              <l>As I do live my honord lord, tis true,</l> 
+              <l>And wee did thinke it right done,</l> 
+              <l>In our dutie to let you know it.</l> 
+              </sp>
+               <sp who="#hamlet" xml:lang="eng" xml:id="m927kex3b5_eng" corresp="#m927kex3b5_spa">
+            <speaker>Hamlet</speaker>
+              <l>Where was this?</l> 
+              </sp>
+               <sp who="#marcellus" xml:lang="eng" xml:id="m9v6kex3b5_eng" corresp="#m9v6kex3b5_spa">
+            <speaker>Marcellus</speaker>
+              <l>My Lord, upon the platforme where we watched</l> 
+              </sp>
+              </rdg>
+              </app>        
+          </sp>
+          
+          <sp who="#hamlet" xml:lang="eng" xml:id="x2m9k3v7b5_eng" corresp="#x2m9k3v7b5_spa">
+            <speaker>Hamlet</speaker>
+            <l>Did you not speak to it?</l>
+          </sp>
+          
+         <app xml:id="u3k_1b7_jhc">
+            <lem wit="#F1 #Q2">
+          <sp who="#horatio" xml:lang="eng" xml:id="b9k7v2x3m5_eng" corresp="#b9k7v2x3m5_spa">
+            <speaker>Horatio</speaker>
+            <l>My lord, I did,</l>
+            <l>But answer made it none. Yet once methought</l>
+            <l>It lifted up its head and did address</l>
+            <l>Itself to motion, like as it would speak;</l>
+            <l>But even then the morning cock crew loud,</l>
+            <l>And at the sound it shrunk in haste away</l>
+            <l>And vanished from our sight.</l>
+          </sp>       
+          <sp who="#hamlet" xml:lang="eng" xml:id="m5x7v9k2b3_eng" corresp="#m5x7v9k2b3_spa">
+            <speaker>Hamlet</speaker>
+            <l>’Tis very strange.</l>
+          <app>
+            <lem n="."></lem>
+                <rdg wit="#F1" type="variation-present">
+                  <sp who="#horatio" xml:lang="eng" xml:id="w3f9x2m7b5_eng" corresp="#w3f9x2m7b5_spa">
+              <speaker>Horatio</speaker>
+                <l>As I doe liue my honourd Lord ’tis true;</l>
+                <l>And we did thinke it writ downe in our duty</l>
+                <l>To let you know of it.</l>
+                </sp>
+                <sp who="#hamlet" xml:lang="eng" xml:id="w3c9x2m7b5_eng" corresp="#w3c9x2m7b5_spa">
+              <speaker>Hamlet</speaker>
+                <l>Indeed, indeed Sirs; but this troubles me</l>
+                <l>Hold you the watch to Night?</l>
+                </sp>
+                <sp who="#both" xml:lang="eng" xml:id="w3k9x3m7b5_eng" corresp="#w3k9x3m7b5_spa">
+              <speaker>Both</speaker>
+                <l>We doe my Lord.</l>
+                </sp>
+                </rdg>
+            </app>
+            <l>Arm'd, say you?</l>
+          </sp>
+          </lem><rdg wit="#Q1" type="variation-absent"></rdg>
+
+            <rdg wit="#Q1" type="variation-present">
+              <sp who="#horatio" xml:lang="eng" xml:id="w3k9x2m1b5_eng" corresp="#w3k9x2m1b5_spa">
+              <speaker>Horatio</speaker>
+                 <l> My Lord we did, but answere made it none,</l>
+                 <l> Yet once me thought it was about to speake,</l>
+                 <l> And lifted up his head to motion,</l>
+                 <l> Like as he would speake, but euen then</l>
+                 <l> The morning cocke crew lowd, and in all hade,</l>
+                 <l> It fhruncke in hade away, and vanished</l>
+                 <l> Our sight </l>
+                 </sp>
+                 <sp who="#hamlet" xml:lang="eng" xml:id="a3k9x2m7b5_eng" corresp="#a3k9x2m7b5_spa">
+              <speaker>Hamlet</speaker>
+                 <l> Indeed, indeed firs, but this troubles me?</l>
+                 <l> Hold you the watch to night? </l>
+                 </sp>
+                 <sp who="#all" xml:lang="eng" xml:id="w3k9x2z7b5_eng" corresp="#w3k9x2z7b5_spa">
+              <speaker>All</speaker>
+                 <l> We do my Lord.</l>
+                 </sp>
+                 <sp who="#hamlet" xml:lang="eng" xml:id="w3k2x2m7b5_eng" corresp="#w3k2x2m7b5_spa">
+              <speaker>Hamlet</speaker>
+                 <l> Armed fay ye? </l>
+                 </sp>
+          </rdg>
+          </app>
+
+          <sp who="#horatio" xml:lang="eng" xml:id="v3k9x2m7b5_eng" corresp="#v3k9x2m7b5_spa">
+            <speaker>Horatio</speaker>
+            <l>Arm'd, my lord.</l>
+          </sp>
+          
+          <sp who="#hamlet" xml:lang="eng" xml:id="x7b5k3m9v2_eng" corresp="#x7b5k3m9v2_spa">
+            <speaker>Hamlet</speaker>
+            <l>From top to toe?</l>
+          </sp>
+          
+         <app> 
+          <lem wit="#Q2 #F1">
+          <sp who="#horatio" xml:lang="eng" xml:id="k2v9m3x7b5_eng" corresp="#k2v9m3x7b5_spa">
+            <speaker>Horatio</speaker>
+            <l></l>
+          </sp>
+            </lem>
+            <rdg wit="#Q1">
+          <sp who="#All" xml:lang="eng" xml:id="v4l3p9d2x8_eng" corresp="#v4l3p9d2x8_spa">
+            <speaker>All</speaker>   
+            <l></l>
+          </sp>
+            </rdg>
+          </app>
+             <l> My 
+          <app> 
+              <lem n="My"></lem>
+              <rdg wit="#Q1" type="variation-present">good</rdg>
+          </app> 
+              lord, from head to foot.</l>
+         
+          <sp who="#hamlet" xml:lang="eng" xml:id="m9x3v7b2k5_eng" corresp="#m9x3v7b2k5_spa">
+            <speaker>Hamlet</speaker>
+            <app>
+              <lem n= "."></lem>
+              <rdg wit="#Q1" type="variation-present">Why</rdg>
+            </app>
+            <l>Then saw you not his face?</l>
+          </sp>
+          
+          <sp who="#horatio" xml:lang="eng" xml:id="v7k3b9m2x5_eng" corresp="#v7k3b9m2x5_spa">
+            <speaker>Horatio</speaker>
+            <l>O yes, my lord, he wore his beaver up.</l>
+          </sp>
+          
+          <sp who="#hamlet" xml:lang="eng" xml:id="x9b2m7k3v5_eng" corresp="#x9b2m7k3v5_spa">
+            <speaker>Hamlet</speaker>
+            <l>
+              <app> 
+                <lem> What,</lem>
+                <rdg wit="#Q1">How,</rdg>
+              </app>
+                look’d he frowningly?</l>
+          </sp>
+          
+          <sp who="#horatio" xml:lang="eng" xml:id="m2v7k9x3b5_eng" corresp="#m2v7k9x3b5_spa">
+            <speaker>Horatio</speaker>
+            <l>A countenance more in sorrow</l>
+            <app>
+              <lem >than</lem>
+              <rdg wit="F1">then</rdg>
+            </app>
+            <l>in anger.</l>
+          </sp>
+          
+          <sp who="#hamlet" xml:lang="eng" xml:id="b5m3v9k2x7_eng" corresp="#b5m3v9k2x7_spa">
+            <speaker>Hamlet</speaker>
+            <l>Pale or red?</l>
+          </sp>
+          
+          <sp who="#horatio" xml:lang="eng" xml:id="k7x9m2v3b5_eng" corresp="#k7x9m2v3b5_spa">
+            <speaker>Horatio</speaker>
+            <l>Nay, very pale.</l>
+          </sp>
+          
+          <sp who="#hamlet" xml:lang="eng" xml:id="v3b5m9k2x7_eng" corresp="#v3b5m9k2x7_spa">
+            <speaker>Hamlet</speaker>
+            <l>And fix’d his eyes upon you?</l>
+          </sp>
+
+          <sp who="#horatio" xml:lang="eng" xml:id="x5m9k2v3b7_eng" corresp="#x5m9k2v3b7_spa">
+            <speaker>Horatio</speaker>
+            <l>Most constantly.</l>
+          </sp>
+          
+          <sp who="#hamlet" xml:lang="eng" xml:id="m7x2k9v3b5_eng" corresp="#m7x2k9v3b5_spa">
+            <speaker>Hamlet</speaker>
+            <l>I would I had been there.</l>
+          </sp>
+          
+
+          <sp who="#horatio" xml:lang="eng" xml:id="b9v7k2x3m5_eng" corresp="#b9v7k2x3m5_spa">
+            <speaker>Horatio</speaker>
+            <l>It would have much amazed you.</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="v2x3m9k7b5_eng" corresp="#v2x3m9k7b5_spa">
+            <speaker>Hamlet</speaker>
+            <l><app> 
+                <lem n="Hamlet"></lem>
+                <rdg wit="#Q1" type="variation-present">Yea</rdg>
+              </app>Very like, very like. Stay’d it long?</l>
+          </sp>
+
+          <sp who="#horatio" xml:lang="eng" xml:id="m3k9b7x2v5_eng" corresp="#m3k9b7x2v5_spa">
+            <speaker>Horatio</speaker>
+            <l>While one with moderate 
+              <app> 
+                <lem>haste</lem>
+                <rdg wit="#Q1">pace</rdg>
+              </app> might tell a hundred.</l>
+              </sp>
+            <app>
+            <lem n="."></lem>
+                <rdg wit="#F1" type="variation-present"> 
+                  <sp who="#all" xml:lang="eng" xml:id="t3k9x2m7b5_eng" corresp="#t3k9x2m7b5_spa">
+              <speaker>all</speaker>
+                  <l>, longer.</l>
+                  </sp>
+                <sp who="#horatio" xml:lang="eng" xml:id="w3k9x2f7b5_eng" corresp="#w3k9x2f7b5_spa">
+              <speaker>Horatio</speaker>
+                 <l> Not when I saw’ </l>
+                </sp>
+                    </rdg>
+              </app>
+          
+                 <app> 
+                <lem n="hundred"></lem>
+                <rdg wit="#Q1" type="variation-present">
+                  <sp who="#marcellus" xml:lang="eng" xml:id="w3k922f7b5_eng" corresp="#w3k922f7b5_spa">
+              <speaker>Marcellus</speaker>
+              <l>O longer, longer.</l>
+              </sp>
+                </rdg>
+              </app>
+              
+          
+          <sp who="#hamlet" xml:lang="eng" xml:id="x9m7k2v3b5_eng" corresp="#x9m7k2v3b5_spa">
+            <speaker>Hamlet</speaker>
+            <l>His beard was grizzled? No?</l>
+          </sp>
+          
+
+          <sp who="#horatio" xml:lang="eng" xml:id="k2b5m9x3v7_eng" corresp="#k2b5m9x3v7_spa">
+            <speaker>Horatio</speaker>
+            <l>It was, as I have seen it in his life,</l>
+            <l>A sable silver’d.</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="m5v9x2k3b7_eng" corresp="#m5v9x2k3b7_spa">
+            <speaker>Hamlet</speaker>
+            <l>I’ll watch tonight. Perchance ’twill walk again.</l>
+          </sp>
+          
+
+          <sp who="#horatio" xml:lang="eng" xml:id="x3b7v9k2m5_eng" corresp="#x3b7v9k2m5_spa">
+            <speaker>Horatio</speaker>
+            <l>I warrant it will.</l>
+          </sp>
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="k7m2v9x3b5_eng" corresp="#k7m2v9x3b5_spa">
+            <speaker>Hamlet</speaker>
+            <l>If it assume my noble father’s person,</l>
+            <l>I’ll speak to it though hell itself should gape</l>
+            <l>And bid me hold my peace.
+              <app> 
+               <lem wit="#F1">I pray you all, </lem> 
+               <rdg wit="#Q1">Gentlemen, </rdg>
+              </app>
+            </l>
+            <l>If you have hitherto conceal’d this sight,</l>
+            <l>Let it be tenable in your silence still,</l>
+            <l>And whatsoever else shall 
+             <app>
+              <lem wit= "#F1">hap</lem>
+              <rdg wit="#Q1">chance</rdg>
+             </app>  
+             tonight,</l>
+            <l>Give it an understanding but no tongue.</l>
+            <l>I will requite your loves. So, fare you well.</l>
+            <l>Upon the platform, ’twixt eleven and twelve,</l>
+            <l>I’ll visit you.</l>
+          </sp>
+          
+
+          <sp who="#all" xml:lang="eng" xml:id="b2v3k9x7m5_eng" corresp="#b2v3k9x7m5_spa">
+            <speaker>All</speaker>
+            <l>Our duty to your honor.</l>
+          </sp>
+          
+
+          <stage xml:lang="eng" xml:id="x9m2k7v3b5_eng" corresp="#x9m2k7v3b5_spa">[Exeunt]</stage> 
+          <app>
+              <lem>[ Horatio, Marcellus and Bernardo].</lem>
+                  <rdg wit="#F1" type="variation-absent"></rdg>
+          </app>           
+          
+
+          <sp who="#hamlet" xml:lang="eng" xml:id="m3k7v9x2b5_eng" corresp="#m3k7v9x2b5_spa">
+            <speaker>Hamlet</speaker>
+            <app>
+              <lem n= "."> </lem>
+              <rdg wit="#Q1" type="variation-present">
+                <l>O your loves,your loves, as mine to you,</l> 
+                Farewell,</rdg>
+            </app>
+            <l>My father’s spirit—in arms! All is not well.</l>
+            <l>I doubt some foul play. Would the night were come!</l>
+            <l>Till then sit still, my soul
+             <app>  
+               <lem>Fond</lem>
+               <rdg wit="#F1 #Q1"> foule </rdg>
+               </app>
+               deeds will rise,</l>
+            <l>Though all the earth o’erwhelm them, to men’s eyes.</l>
+            <stage>[Exit.]</stage>
+          </sp>
+
+          
+          <stage xml:lang="spa" xml:id="g9m3v7k2x4_spa" corresp="#g9m3v7k2x4_eng">[Florece] Entra Claudio, Rey de Dinamarca, Gertrudis la reina, el Consejo, Polonio y su hijo Laerte, Hamlet, con Voltemand y Cornelio.</stage>
+<sp who="#king" xml:lang="spa" xml:id="k4r7m2x9b1_spa" corresp="#k4r7m2x9b1_eng">
+            <speaker>Rey</speaker>
+            <l>Aunque aún de Hamlet, nuestro caro hermano, la muerte</l>
+            <l>la memoria verde esté, y nos convenga</l>
+            <l>llevar el corazón en duelo, y todo el reino</l>
+            <l>contraerse en una sola ceja de aflicción,</l>
+            <l>con todo, tanto ha luchado la discreción con natura,</l>
+            <l>que con sabia tristeza pensamos en él,</l>
+            <l>juntamente con memoria de nosotros mismos.</l>
+            <l>Por tanto, nuestra hermana de otrora, ahora nuestra reina,</l>
+            <l>la imperial consorte de este belicoso estado,</l>
+            <l>hemos, cual con alegría vencida, tomado por esposa,</l>
+            <l>con ojo propicio y con ojo lloroso,</l>
+            <l>con júbilo en funerales y canto fúnebre en bodas,</l>
+            <l>sopesando en igual balanza deleite y dolor.</l>
+            <l>Ni hemos vedado aquí vuestra mejor prudencia,</l>
+            <l>que libremente se unió a este negocio.</l>
+            <l>Por todo, gracias.</l>
+          </sp>
+<sp who="#king" xml:lang="spa" xml:id="n8v3k1x7b5_spa" corresp="#n8v3k1x7b5_eng">
+            <speaker>Rey</speaker>
+            <l>Ahora sigue lo que sabéis de joven Fortimbrás,</l>
+            <l>que con débil suposición de nuestro valor,</l>
+            <l>o creyendo que por la muerte de nuestro caro hermano</l>
+            <l>nuestro estado se halla roto y fuera de marco,</l>
+            <l>asociado con este sueño de ventaja,</l>
+            <l>no ha fallado en importunarnos con mensajes</l>
+            <l>pidiendo la entrega de aquellas tierras</l>
+            <l>que perdió su padre, por todas leyes,</l>
+            <l>a nuestro más valiente hermano. Tanto de él.</l>
+          </sp>
+<sp who="#king" xml:lang="spa" xml:id="h5k9m2v3x7_spa" corresp="#h5k9m2v3x7_eng">
+            <speaker>Rey</speaker>
+            <l>Ahora por nosotros, y por esta junta,</l>
+            <l>este es el negocio: hemos escrito</l>
+            <l>al Noruega, tío de joven Fortimbrás,</l>
+            <l>que, impotente y en cama, apenas oye</l>
+            <l>el propósito de su sobrino, para frenar</l>
+            <l>su paso más allá, pues las levas,</l>
+            <l>las listas y proporciones se han hecho</l>
+            <l>de entre sus súbditos; y enviamos aquí</l>
+            <l>a vos, buen Cornelio, y a vos, Voltemando,</l>
+            <l>portadores de este saludo al viejo Noruega,</l>
+            <l>dándoos ningún poder personal mayor</l>
+            <l>que el alcance que estos artículos conceden.</l>
+            <l>Adiós, y que vuestra premura muestre vuestro deber.</l>
+          </sp>
+<sp who="#cornelius-voltemand" xml:lang="spa" xml:id="x3v7k2m9b5_spa" corresp="#x3v7k2m9b5_eng">
+            <speaker>Cornelio y Voltemand</speaker>
+            <l>En ello y en todo mostraremos nuestro deber.</l>
+          </sp>
+<sp who="#king" xml:lang="spa" xml:id="m7k1v4x9b2_spa" corresp="#m7k1v4x9b2_eng">
+            <speaker>Rey</speaker>
+            <l>No lo dudamos. Un sentido hasta pronto.</l>
+            <stage>[Salen Voltemand y Cornelio.]</stage>
+          </sp>
+<sp who="#king" xml:lang="spa" xml:id="r5m8k2v9x3_spa" corresp="#r5m8k2v9x3_eng">
+            <speaker>Rey</speaker>
+            <l>Y ahora, Laertes, ¿qué nuevas contigo?</l>
+            <l>Nos hablaste de un asunto. ¿Qué es, Laertes?</l>
+            <l>No puedes hablar al Danés con razón</l>
+            <l>y perder tu voz. ¿Qué pedirías, Laertes,</l>
+            <l>que no sea mi ofrecimiento antes que tu petición?</l>
+            <l>La cabeza no es más propia del corazón,</l>
+            <l>ni la mano más del instrumento de la boca,</l>
+            <l>que el trono de Dinamarca de tu padre.</l>
+            <l>¿Qué quieres, Laertes?</l>
+          </sp>
+<sp who="#laertes" xml:lang="spa" xml:id="x8v3m9k2b5_spa" corresp="#x8v3m9k2b5_eng">
+            <speaker>Laertes</speaker>
+            <l>Temible señor,</l>
+            <l>vuestro permiso y favor para volver a Francia,</l>
+            <l>de donde, aunque de buen grado vine a Dinamarca</l>
+            <l>para mostrar mi deber en vuestra coronación,</l>
+            <l>ahora debo confesar, hecho ese deber,</l>
+            <l>mis pensamientos y deseos se inclinan de nuevo hacia Francia</l>
+            <l>y se someten a vuestro gracioso permiso y perdón.</l>
+          </sp>
+          <sp who="#king" xml:lang="spa" xml:id="m4k1v8x9b2_spa" corresp="#m4k1v8x9b2_eng">
+            <speaker>Rey</speaker>
+            <l>¿Tienes el permiso de tu padre? ¿Qué dice Polonio?</l>
+          </sp>
+          
+          <sp who="#polonius" xml:lang="spa" xml:id="b7x3m2k9v4_spa" corresp="#b7x3m2k9v4_eng">
+            <speaker>Polonio</speaker>
+            <l>Él, mi señor, arrancó de mí mi lento permiso</l>
+            <l>con laboriosa petición, y al fin</l>
+            <l>sobre su voluntad puse mi duro consentimiento.</l>
+            <l>Os lo ruego, dadle licencia para ir.</l>
+          </sp>
+          <sp who="#king" xml:lang="spa" xml:id="v6m9k3b2x8_spa" corresp="#v6m9k3b2x8_eng">
+            <speaker>Rey</speaker>
+            <l>Toma tu bella hora, Laertes, el tiempo es tuyo,</l>
+            <l>y tus mejores gracias gástalas a tu albedrío.</l>
+          </sp>
+          <sp who="#king" xml:lang="spa" xml:id="k9x2m7v3b4_spa" corresp="#k9x2m7v3b4_eng">
+            <speaker>Rey</speaker>
+            <l>Mas ahora, mi primo Hamlet, y mi hijo—</l>
+          </sp>
+          <sp who="#hamlet" xml:lang="spa" xml:id="q3v8m1k7b9_spa" corresp="#q3v8m1k7b9_eng">
+            <speaker>Hamlet</speaker>
+            <l>[Aparte] Un poco más que pariente y menos que amable.</l>
+          </sp>
+<sp who="#king" xml:lang="spa" xml:id="x5b2k9m3v8_spa" corresp="#x5b2k9m3v8_eng">
+            <speaker>Rey</speaker>
+            <l>¿Cómo es que las nubes aún cuelgan sobre ti?</l>
+          </sp>
+<sp who="#hamlet" xml:lang="spa" xml:id="m1v7k3x9b5_spa" corresp="#m1v7k3x9b5_eng">
+            <speaker>Hamlet</speaker>
+            <l>No tanto, mi señor, estoy demasiado al sol.</l>
+          </sp>
+<sp who="#queen" xml:lang="spa" xml:id="b4m9k2x7v3_spa" corresp="#b4m9k2x7v3_eng">
+            <speaker>Reina</speaker>
+            <l>Buen Hamlet, quítate ese color de luto,</l>
+            <l>y deja que tu ojo mire amistoso a Dinamarca.</l>
+            <l>No busques siempre con párpados velados</l>
+            <l>a tu noble padre en el polvo.</l>
+            <l>Sabes que es común: todo lo que vive ha de morir,</l>
+            <l>pasando por la naturaleza a la eternidad.</l>
+          </sp>
+<sp who="#hamlet" xml:lang="spa" xml:id="v9k2m3x8b5_spa" corresp="#v9k2m3x8b5_eng">
+            <speaker>Hamlet</speaker>
+            <l>Ay, señora, es común.</l>
+          </sp>
+<sp who="#queen" xml:lang="spa" xml:id="m2x9k7b3v4_spa" corresp="#m2x9k7b3v4_eng">
+            <speaker>Reina</speaker>
+            <l>Si lo es,</l>
+            <l>¿Por qué te parece a ti tan particular?</l>
+          </sp>
+<sp who="#hamlet" xml:lang="spa" xml:id="k7b5m3x2v9_spa" corresp="#k7b5m3x2v9_eng">
+            <speaker>Hamlet</speaker>
+            <l>¿Parecer, señora? No, es. Yo no sé de “parecer”.</l>
+            <l>No es solo mi manto negro, buena madre,</l>
+            <l>ni trajes acostumbrados de luto solemne,</l>
+            <l>ni el suspiro ventoso de respiro forzado,</l>
+            <l>no, ni el río fecundo en el ojo,</l>
+            <l>ni el abatido gesto del rostro,</l>
+            <l>junto con todas las formas, modos, apariencias del duelo,</l>
+            <l>lo que pueda representarme en verdad. Eso sí “parece”,</l>
+            <l>pues son acciones que cualquiera podría actuar;</l>
+            <l>mas yo tengo dentro lo que excede a la muestra,</l>
+            <l>estos no son más que adornos y vestidos del pesar.</l>
+          </sp>
+<sp who="#king" xml:lang="spa" xml:id="x3m9v2k7b5_spa" corresp="#x3m9v2k7b5_eng">
+            <speaker>Rey</speaker>
+            <l>Dulce y loable es en tu naturaleza, Hamlet,</l>
+            <l>dar estos deberes de luto a tu padre.</l>
+            <l>Mas debes saber que tu padre perdió a su padre,</l>
+            <l>ese padre perdido, perdió al suyo, y el que sobrevive</l>
+            <l>está obligado en deber filial por algún tiempo</l>
+            <l>a mostrar duelo debido. Mas perseverar</l>
+            <l>en obstinado condolerse es camino</l>
+            <l>de impía terquedad. Es duelo poco varonil.</l>
+          </sp>
+<sp who="#king" xml:lang="spa" xml:id="m7v3k9x2b5_spa" corresp="#m7v3k9x2b5_eng">
+            <speaker>Rey</speaker>
+            <l>Te rogamos, arroja a tierra</l>
+            <l>este luto inútil, y piénsanos</l>
+            <l>como a un padre. Pues sepa el mundo</l>
+            <l>que eres el más inmediato a nuestro trono,</l>
+            <l>y con no menos nobleza de amor</l>
+            <l>que el más caro padre a su hijo</l>
+            <l>te impartimos. Y en cuanto a tu intención</l>
+            <l>de volver a la escuela en Wittenberg,</l>
+            <l>es lo más contrario a nuestro deseo,</l>
+            <l>y te suplicamos inclinarte a quedarte</l>
+            <l>aquí en el consuelo y alegría de nuestro ojo,</l>
+            <l>nuestro principal cortesano, primo y nuestro hijo.</l>
+          </sp>
+<sp who="#queen" xml:lang="spa" xml:id="x4k9m2b7v3_spa" corresp="#x4k9m2b7v3_eng">
+            <speaker>Reina</speaker>
+            <l>No dejes que tu madre pierda sus ruegos, Hamlet.</l>
+            <l>Te ruego quedarte con nosotros, no vayas a Wittenberg.</l>
+          </sp>
+<sp who="#hamlet" xml:lang="spa" xml:id="b2m9k3x7v5_spa" corresp="#b2m9k3x7v5_eng">
+            <speaker>Hamlet</speaker>
+            <l>He de obedecerte en todo lo mejor, señora.</l>
+          </sp>
+<sp who="#king" xml:lang="spa" xml:id="k8x3v7b2m9_spa" corresp="#k8x3v7b2m9_eng">
+            <speaker>Rey</speaker>
+            <l>He ahí una respuesta amorosa y justa.</l>
+            <l>Sé como nosotros mismos en Dinamarca. Señora, venid.</l>
+            <l>Este amable y no forzado acuerdo de Hamlet</l>
+            <l>sonríe a mi corazón. En gracia de esto</l>
+            <l>ningún brindis jocundo beba hoy Dinamarca</l>
+            <l>sin que el gran cañón a las nubes lo diga,</l>
+            <l>resonando trueno terrenal. Venid.</l>
+            <stage>[Salen Rey, Reina, Polonio, Laertes y todos menos Hamlet.]</stage>
+          </sp>
+<sp who="#hamlet" xml:lang="spa" xml:id="v3b7k9x2m5_spa" corresp="#v3b7k9x2m5_eng">
             <speaker>Hamlet</speaker>
             <l>¡Oh, que esta carne demasiado sólida se disolviera,</l>
             <l>se derritiera y se volviera rocío,</l>
@@ -697,108 +1465,44 @@
             <l>tocaran su rostro con rudeza. ¡Cielo y tierra,</l>
             <l>he de recordarlo?</l>
           </sp>
-          <sp who="#hamlet" xml:lang="eng" xml:id="b5k9m3x7v2_eng" corresp="#b5k9m3x7v2_spa">
-            <speaker>Hamlet</speaker>
-            <l>It is not, nor it cannot come to good.</l>
-            <l>But break, my heart, for I must hold my tongue.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="b5k9m3x7v2_spa" corresp="#b5k9m3x7v2_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="b5k9m3x7v2_spa" corresp="#b5k9m3x7v2_eng">
             <speaker>Hamlet</speaker>
             <l>No es, ni puede venir a bien.</l>
             <l>Pero rómpete, mi corazón, pues debo contener mi lengua.</l>
           </sp>
-
-          <stage xml:lang="eng" xml:id="x7m2k9v3b5_eng" corresp="#x7m2k9v3b5_spa">Enter Horatio, Marcellus
-            <app>
-              <lem>, and Bernardo.</lem>
-              <rdg wit="#F1" type="variation-absent"></rdg>
-            </app>
-          </stage>
-          <stage xml:lang="spa" xml:id="x7m2k9v3b5_spa" corresp="#x7m2k9v3b5_eng">Entran Horacio, Marcelo y Bernardo.</stage>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="m9k2v4x3b7_eng" corresp="#m9k2v4x3b7_spa">
-            <speaker>Horatio</speaker>
-            <l>Hail to your lordship!</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="m9k2v4x3b7_spa" corresp="#m9k2v4x3b7_eng">
+<stage xml:lang="spa" xml:id="x7m2k9v3b5_spa" corresp="#x7m2k9v3b5_eng">Entran Horacio, Marcelo y Bernardo.</stage>
+<sp who="#horatio" xml:lang="spa" xml:id="m9k2v4x3b7_spa" corresp="#m9k2v4x3b7_eng">
             <speaker>Horacio</speaker>
             <l>¡Salve a tu señoría!</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="k3b7v9x2m5_eng" corresp="#k3b7v9x2m5_spa">
-            <speaker>Hamlet</speaker>
-            <l>I am glad to see you well.</l>
-            <l>Horatio—or I do forget myself!</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="k3b7v9x2m5_spa" corresp="#k3b7v9x2m5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="k3b7v9x2m5_spa" corresp="#k3b7v9x2m5_eng">
             <speaker>Hamlet</speaker>
             <l>Me alegra verte bien.</l>
             <l>¡Horacio — o me olvido de mí mismo!</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="v4m2k7x9b3_eng" corresp="#v4m2k7x9b3_spa">
-            <speaker>Horatio</speaker>
-            <l>The same, my lord, and your poor servant ever.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="v4m2k7x9b3_spa" corresp="#v4m2k7x9b3_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="v4m2k7x9b3_spa" corresp="#v4m2k7x9b3_eng">
             <speaker>Horacio</speaker>
             <l>El mismo, mi señor, y vuestro pobre servidor siempre.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="x2b9m7k3v5_eng" corresp="#x2b9m7k3v5_spa">
-            <speaker>Hamlet</speaker>
-            <l>Sir, my good friend—I'll change that name with you.</l>
-            <l>And what make you from Wittenberg, Horatio?</l>
-            <app>
-              <lem>-Marcellus?</lem>
-              <rdg wit="#F1" type="variation-absent"></rdg>
-            </app>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="x2b9m7k3v5_spa" corresp="#x2b9m7k3v5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="x2b9m7k3v5_spa" corresp="#x2b9m7k3v5_eng">
             <speaker>Hamlet</speaker>
             <l>Señor, mi buen amigo — cambiaré ese nombre contigo.</l>
             <l>¿Y qué te trae de Wittenberg, Horacio? — ¿Marcelo?</l>
           </sp>
-
-          <sp who="#marcellus" xml:lang="eng" xml:id="m4v9k2x7b3_eng" corresp="#m4v9k2x7b3_spa">
-            <speaker>Marcellus</speaker>
-            <l>My good lord—</l>
-          </sp>
-          <sp who="#marcellus" xml:lang="spa" xml:id="m4v9k2x7b3_spa" corresp="#m4v9k2x7b3_eng">
+<sp who="#marcellus" xml:lang="spa" xml:id="m4v9k2x7b3_spa" corresp="#m4v9k2x7b3_eng">
             <speaker>Marcelo</speaker>
             <l>Mi buen señor—</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="b9x3m2v7k5_eng" corresp="#b9x3m2v7k5_spa">
-            <speaker>Hamlet</speaker>
-            <l>I am very glad to see you. Good even, sir.</l>
-            <l>But what in faith make you from Wittenberg?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="b9x3m2v7k5_spa" corresp="#b9x3m2v7k5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="b9x3m2v7k5_spa" corresp="#b9x3m2v7k5_eng">
             <speaker>Hamlet</speaker>
             <l>Me alegra mucho verte. Buenas tardes, señor.</l>
             <l>Pero en verdad, ¿qué te trae de Wittenberg?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="k7m5v9x3b2_eng" corresp="#k7m5v9x3b2_spa">
-            <speaker>Horatio</speaker>
-            <l>A truant disposition, good my lord.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="k7m5v9x3b2_spa" corresp="#k7m5v9x3b2_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="k7m5v9x3b2_spa" corresp="#k7m5v9x3b2_eng">
             <speaker>Horacio</speaker>
             <l>Una disposición de prófugo, mi buen señor.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="x3v7k5m2b9_eng" corresp="#x3v7k5m2b9_spa">
-            <speaker>Hamlet</speaker>
-            <l>I would not hear your enemy say so,</l>
-            <l>Nor shall you do my ear that violence</l>
-            <l>To make it truster of your own report</l>
-            <l>Against yourself. I know you are no truant.</l>
-            <l>But what is your affair in Elsinore?</l>
-            <l>We'll teach you to drink deep ere you depart.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="x3v7k5m2b9_spa" corresp="#x3v7k5m2b9_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="x3v7k5m2b9_spa" corresp="#x3v7k5m2b9_eng">
             <speaker>Hamlet</speaker>
             <l>No quisiera oírlo ni de tu enemigo,</l>
             <l>ni dejarás tú que mi oído sufra esa violencia</l>
@@ -807,45 +1511,20 @@
             <l>¿Pero qué te trae a Elsinor?</l>
             <l>Te enseñaremos a beber hondo antes de irte.</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="v2k9m3x7b5_eng" corresp="#v2k9m3x7b5_spa">
-            <speaker>Horatio</speaker>
-            <l>My lord, I came to see your father’s funeral.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="v2k9m3x7b5_spa" corresp="#v2k9m3x7b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="v2k9m3x7b5_spa" corresp="#v2k9m3x7b5_eng">
             <speaker>Horacio</speaker>
             <l>Mi señor, vine a ver el funeral de vuestro padre.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="m3x9b2v7k4_eng" corresp="#m3x9b2v7k4_spa">
-            <speaker>Hamlet</speaker>
-            <l>I prithee do not mock me, fellow student.</l>
-            <l>I think it was to see my mother’s wedding.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="m3x9b2v7k4_spa" corresp="#m3x9b2v7k4_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="m3x9b2v7k4_spa" corresp="#m3x9b2v7k4_eng">
             <speaker>Hamlet</speaker>
             <l>Te ruego no burlarte de mí, compañero de estudios.</l>
             <l>Creo que fue a ver la boda de mi madre.</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="k9v7m2x3b5_eng" corresp="#k9v7m2x3b5_spa">
-            <speaker>Horatio</speaker>
-            <l>Indeed, my lord, it followed hard upon.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="k9v7m2x3b5_spa" corresp="#k9v7m2x3b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="k9v7m2x3b5_spa" corresp="#k9v7m2x3b5_eng">
             <speaker>Horacio</speaker>
             <l>En verdad, mi señor, vino muy seguido.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="x5b3m9v2k7_eng" corresp="#x5b3m9v2k7_spa">
-            <speaker>Hamlet</speaker>
-            <l>Thrift, thrift, Horatio! The funeral baked meats</l>
-            <l>Did coldly furnish forth the marriage tables.</l>
-            <l>Would I had met my dearest foe in heaven</l>
-            <l>Or ever I had seen that day, Horatio.</l>
-            <l>My father—methinks I see my father.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="x5b3m9v2k7_spa" corresp="#x5b3m9v2k7_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="x5b3m9v2k7_spa" corresp="#x5b3m9v2k7_eng">
             <speaker>Hamlet</speaker>
             <l>¡Ahorro, ahorro, Horacio! Las viandas del funeral</l>
             <l>fríamente surtieron las mesas de la boda.</l>
@@ -853,144 +1532,51 @@
             <l>antes que ver aquel día, Horacio.</l>
             <l>Mi padre… me parece ver a mi padre.</l>
           </sp>
-          <sp who="#horatio" xml:lang="eng" xml:id="m7k2v9x3b5_eng" corresp="#m7k2v9x3b5_spa">
-            <speaker>Horatio</speaker>
-            <l>Where, my lord?</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="m7k2v9x3b5_spa" corresp="#m7k2v9x3b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="m7k2v9x3b5_spa" corresp="#m7k2v9x3b5_eng">
             <speaker>Horacio</speaker>
             <l>¿Dónde, mi señor?</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="b3v9k7x2m5_eng" corresp="#b3v9k7x2m5_spa">
-            <speaker>Hamlet</speaker>
-            <l>In my mind’s eye, Horatio.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="b3v9k7x2m5_spa" corresp="#b3v9k7x2m5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="b3v9k7x2m5_spa" corresp="#b3v9k7x2m5_eng">
             <speaker>Hamlet</speaker>
             <l>En el ojo de mi mente, Horacio.</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="k9x3m2v7b5_eng" corresp="#k9x3m2v7b5_spa">
-            <speaker>Horatio</speaker>
-            <l>I saw him once. He was a goodly king.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="k9x3m2v7b5_spa" corresp="#k9x3m2v7b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="k9x3m2v7b5_spa" corresp="#k9x3m2v7b5_eng">
             <speaker>Horacio</speaker>
             <l>Lo vi una vez. Era un buen rey.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="v2m5k9x3b7_eng" corresp="#v2m5k9x3b7_spa">
-            <speaker>Hamlet</speaker>
-            <l>He was a man. Take him for all in all.</l>
-            <l>I shall not look upon his like again.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="v2m5k9x3b7_spa" corresp="#v2m5k9x3b7_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="v2m5k9x3b7_spa" corresp="#v2m5k9x3b7_eng">
             <speaker>Hamlet</speaker>
             <l>Era un hombre. Tómalo por todo en todo.</l>
             <l>No veré otro semejante jamás.</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="m4b9k2x7v3_eng" corresp="#m4b9k2x7v3_spa">
-            <speaker>Horatio</speaker>
-            <l>My lord, I think I saw him yesternight.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="m4b9k2x7v3_spa" corresp="#m4b9k2x7v3_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="m4b9k2x7v3_spa" corresp="#m4b9k2x7v3_eng">
             <speaker>Horacio</speaker>
             <l>Mi señor, creo que lo vi anoche.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="b7v3k9x2m5_eng" corresp="#b7v3k9x2m5_spa">
-            <speaker>Hamlet</speaker>
-            <l>Saw? Who?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="b7v3k9x2m5_spa" corresp="#b7v3k9x2m5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="b7v3k9x2m5_spa" corresp="#b7v3k9x2m5_eng">
             <speaker>Hamlet</speaker>
             <l>¿Viste? ¿A quién?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="x9m2v7k3b5_eng" corresp="#x9m2v7k3b5_spa">
-            <speaker>Horatio</speaker>
-            <l>My lord, the king your father.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="x9m2v7k3b5_spa" corresp="#x9m2v7k3b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="x9m2v7k3b5_spa" corresp="#x9m2v7k3b5_eng">
             <speaker>Horacio</speaker>
             <l>Mi señor, al rey vuestro padre.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="m2k7v9x3b5_eng" corresp="#m2k7v9x3b5_spa">
-            <speaker>Hamlet</speaker>
-            <l>The king my father!</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="m2k7v9x3b5_spa" corresp="#m2k7v9x3b5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="m2k7v9x3b5_spa" corresp="#m2k7v9x3b5_eng">
             <speaker>Hamlet</speaker>
             <l>¡El rey mi padre!</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="v5x3m9k2b7_eng" corresp="#v5x3m9k2b7_spa">
-            <speaker>Horatio</speaker>
-            <l>Season your admiration for a while</l>
-            <l>With an attent ear, till I may deliver</l>
-            <l>Upon the witness of these gentlemen</l>
-            <l>This marvel to you.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="v5x3m9k2b7_spa" corresp="#v5x3m9k2b7_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="v5x3m9k2b7_spa" corresp="#v5x3m9k2b7_eng">
             <speaker>Horacio</speaker>
             <l>Modera tu admiración un momento</l>
             <l>y atiende con oído atento, hasta que pueda relatar</l>
             <l>ante testimonio de estos caballeros</l>
             <l>esta maravilla.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="k3b9m2v7x5_eng" corresp="#k3b9m2v7x5_spa">
-            <speaker>Hamlet</speaker>
-            <l>For 
-              <app>
-               <lem>God’s</lem> 
-               <rdg wit="#F1">heavens</rdg>
-              </app>
-              love, let me hear!</l> 
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="k3b9m2v7x5_spa" corresp="#k3b9m2v7x5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="k3b9m2v7x5_spa" corresp="#k3b9m2v7x5_eng">
             <speaker>Hamlet</speaker>
             <l>¡Por amor de Dios, déjame oír!</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="m9v7k2x3b5_eng" corresp="#m9v7k2x3b5_spa">
-            <speaker>Horatio</speaker>
-            <l>Two nights together had these gentlemen,</l>
-            <l>Marcellus and Bernardo, on their watch</l>
-            <l>In the dead vast and middle of the night,</l>
-            <l>Been thus encounter’d: a figure like your father,</l>
-            <l>Armed at
-              <app>
-                <lem n="at"></lem>
-                <rdg wit="#F1" type="variation_present">all points</rdg>
-              </app> 
-               exactly, cap-à-pie,</l>
-            <l>Appears before them and with solemn march</l>
-            <l>Goes slow and stately by them. Thrice he walk’d</l>
-            <l>By their oppressèd and fear-surprisèd eyes</l>
-            <l>Within his truncheon’s length, whilst they distill’d</l>
-            <l>Almost to jelly with the act of fear</l>
-            <l>Stand dumb and speak not to him.
-              <app>
-                <lem n="."></lem>
-                <rdg wit="#F1" type="variation-present">This to me 
-                In dreadful I sccrecie impart they did, 
-                And I with them the third Night kept the Watch,
-                Whereas they had dcliuer’d both in time, 
-                Forme of the thing; each word made true and good, 
-                The Apparition comes. I knew your Father:
-                These hands arc not more like.  
-                Ham. But where was this? 
-                Mar. My Lord, vpon the platformc where wc watcht. 
-                </rdg>
-              </app>
-            </l>
-            
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="m9v7k2x3b5_spa" corresp="#m9v7k2x3b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="m9v7k2x3b5_spa" corresp="#m9v7k2x3b5_eng">
             <speaker>Horacio</speaker>
             <l>Dos noches seguidas estos caballeros,</l>
             <l>Marcelo y Bernardo, en su guardia</l>
@@ -1004,27 +1590,11 @@
             <l>casi gelatina por el acto de miedo,</l>
             <l>quedando mudos y sin hablarle.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="x2m9k3v7b5_eng" corresp="#x2m9k3v7b5_spa">
-            <speaker>Hamlet</speaker>
-            <l>Did you not speak to it?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="x2m9k3v7b5_spa" corresp="#x2m9k3v7b5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="x2m9k3v7b5_spa" corresp="#x2m9k3v7b5_eng">
             <speaker>Hamlet</speaker>
             <l>¿No le hablasteis?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="b9k7v2x3m5_eng" corresp="#b9k7v2x3m5_spa">
-            <speaker>Horatio</speaker>
-            <l>My lord, I did,</l>
-            <l>But answer made it none. Yet once methought</l>
-            <l>It lifted up its head and did address</l>
-            <l>Itself to motion, like as it would speak;</l>
-            <l>But even then the morning cock crew loud,</l>
-            <l>And at the sound it shrunk in haste away</l>
-            <l>And vanished from our sight.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="b9k7v2x3m5_spa" corresp="#b9k7v2x3m5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="b9k7v2x3m5_spa" corresp="#b9k7v2x3m5_eng">
             <speaker>Horacio</speaker>
             <l>Mi señor, lo hice,</l>
             <l>pero respuesta ninguna dio. Aun una vez me pareció</l>
@@ -1034,229 +1604,90 @@
             <l>y al sonido se encogió con prisa</l>
             <l>y desapareció de nuestra vista.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="m5x7v9k2b3_eng" corresp="#m5x7v9k2b3_spa">
-            <speaker>Hamlet</speaker>
-            <l>’Tis very strange.</l>
-            <app>
-            <lem n="."></lem>
-                <rdg wit="#F1" type="variation-present">
-                  Hor. As I doe liue my honourd Lord ’tis true;
-                  And we did thinke it writ downe in our duty
-                  To let you know of it.
-                  Ham. Indeed, indeed Sirs; but this troubles me
-                  Hold you the watch to Night?
-                  Both. We doe my Lord.
-                </rdg>
-            </app>
-            <l>Arm’d, say you?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="m5x7v9k2b3_spa" corresp="#m5x7v9k2b3_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="m5x7v9k2b3_spa" corresp="#m5x7v9k2b3_eng">
             <speaker>Hamlet</speaker>
             <l>Es muy extraño.</l>
             <l>¿Armado, decís?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="v3k9x2m7b5_eng" corresp="#v3k9x2m7b5_spa">
-            <speaker>Horatio</speaker>
-            <l>Arm’d, my lord.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="v3k9x2m7b5_spa" corresp="#v3k9x2m7b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="v3k9x2m7b5_spa" corresp="#v3k9x2m7b5_eng">
             <speaker>Horacio</speaker>
             <l>Armado, mi señor.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="x7b5k3m9v2_eng" corresp="#x7b5k3m9v2_spa">
-            <speaker>Hamlet</speaker>
-            <l>From top to toe?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="x7b5k3m9v2_spa" corresp="#x7b5k3m9v2_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="x7b5k3m9v2_spa" corresp="#x7b5k3m9v2_eng">
             <speaker>Hamlet</speaker>
             <l>¿De pies a cabeza?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="k2v9m3x7b5_eng" corresp="#k2v9m3x7b5_spa">
-            <speaker>Horatio</speaker>
-            <l>My lord, from head to foot.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="k2v9m3x7b5_spa" corresp="#k2v9m3x7b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="k2v9m3x7b5_spa" corresp="#k2v9m3x7b5_eng">
             <speaker>Horacio</speaker>
             <l>Mi señor, de cabeza a pie.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="m9x3v7b2k5_eng" corresp="#m9x3v7b2k5_spa">
-            <speaker>Hamlet</speaker>
-            <l>Then saw you not his face?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="m9x3v7b2k5_spa" corresp="#m9x3v7b2k5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="m9x3v7b2k5_spa" corresp="#m9x3v7b2k5_eng">
             <speaker>Hamlet</speaker>
             <l>¿Entonces no visteis su rostro?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="v7k3b9m2x5_eng" corresp="#v7k3b9m2x5_spa">
-            <speaker>Horatio</speaker>
-            <l>O yes, my lord, he wore his beaver up.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="v7k3b9m2x5_spa" corresp="#v7k3b9m2x5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="v7k3b9m2x5_spa" corresp="#v7k3b9m2x5_eng">
             <speaker>Horacio</speaker>
             <l>Oh sí, mi señor, llevaba alzado el visero.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="x9b2m7k3v5_eng" corresp="#x9b2m7k3v5_spa">
-            <speaker>Hamlet</speaker>
-            <l>What, look’d he frowningly?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="x9b2m7k3v5_spa" corresp="#x9b2m7k3v5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="x9b2m7k3v5_spa" corresp="#x9b2m7k3v5_eng">
             <speaker>Hamlet</speaker>
             <l>¿Qué, miraba con ceño?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="m2v7k9x3b5_eng" corresp="#m2v7k9x3b5_spa">
-            <speaker>Horatio</speaker>
-            <l>A countenance more in sorrow</l>
-            <app>
-              <lem >than</lem>
-              <rdg wit="F1">then</rdg>
-            </app>
-            <l>in anger.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="m2v7k9x3b5_spa" corresp="#m2v7k9x3b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="m2v7k9x3b5_spa" corresp="#m2v7k9x3b5_eng">
             <speaker>Horacio</speaker>
             <l>Un semblante más de pesar que de enojo.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="b5m3v9k2x7_eng" corresp="#b5m3v9k2x7_spa">
-            <speaker>Hamlet</speaker>
-            <l>Pale or red?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="b5m3v9k2x7_spa" corresp="#b5m3v9k2x7_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="b5m3v9k2x7_spa" corresp="#b5m3v9k2x7_eng">
             <speaker>Hamlet</speaker>
             <l>¿Pálido o rojo?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="k7x9m2v3b5_eng" corresp="#k7x9m2v3b5_spa">
-            <speaker>Horatio</speaker>
-            <l>Nay, very pale.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="k7x9m2v3b5_spa" corresp="#k7x9m2v3b5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="k7x9m2v3b5_spa" corresp="#k7x9m2v3b5_eng">
             <speaker>Horacio</speaker>
             <l>No, muy pálido.</l>
           </sp>
 
-          <sp who="#hamlet" xml:lang="eng" xml:id="v3b5m9k2x7_eng" corresp="#v3b5m9k2x7_spa">
-            <speaker>Hamlet</speaker>
-            <l>And fix’d his eyes upon you?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="v3b5m9k2x7_spa" corresp="#v3b5m9k2x7_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="v3b5m9k2x7_spa" corresp="#v3b5m9k2x7_eng">
             <speaker>Hamlet</speaker>
             <l>¿Y fijaba sus ojos en vosotros?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="x5m9k2v3b7_eng" corresp="#x5m9k2v3b7_spa">
-            <speaker>Horatio</speaker>
-            <l>Most constantly.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="x5m9k2v3b7_spa" corresp="#x5m9k2v3b7_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="x5m9k2v3b7_spa" corresp="#x5m9k2v3b7_eng">
             <speaker>Horacio</speaker>
             <l>Constantemente.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="m7x2k9v3b5_eng" corresp="#m7x2k9v3b5_spa">
-            <speaker>Hamlet</speaker>
-            <l>I would I had been there.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="m7x2k9v3b5_spa" corresp="#m7x2k9v3b5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="m7x2k9v3b5_spa" corresp="#m7x2k9v3b5_eng">
             <speaker>Hamlet</speaker>
             <l>Ojalá hubiera estado allí.</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="b9v7k2x3m5_eng" corresp="#b9v7k2x3m5_spa">
-            <speaker>Horatio</speaker>
-            <l>It would have much amazed you.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="b9v7k2x3m5_spa" corresp="#b9v7k2x3m5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="b9v7k2x3m5_spa" corresp="#b9v7k2x3m5_eng">
             <speaker>Horacio</speaker>
             <l>Te hubiera asombrado mucho.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="v2x3m9k7b5_eng" corresp="#v2x3m9k7b5_spa">
-            <speaker>Hamlet</speaker>
-            <l>Very like, very like. Stay’d it long?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="v2x3m9k7b5_spa" corresp="#v2x3m9k7b5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="v2x3m9k7b5_spa" corresp="#v2x3m9k7b5_eng">
             <speaker>Hamlet</speaker>
             <l>Muy posible, muy posible. ¿Duró mucho?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="m3k9b7x2v5_eng" corresp="#m3k9b7x2v5_spa">
-            <speaker>Horatio</speaker>
-            <l>While one with moderate haste might tell a hundred.</l>
-            <app>
-            <lem n="."></lem>
-                <rdg wit="#F1" type="variation-present"> 
-                  All. Longer, longer.
-                  Hor. Not when I saw’t.
-                  </rdg>
-
-              </app>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="m3k9b7x2v5_spa" corresp="#m3k9b7x2v5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="m3k9b7x2v5_spa" corresp="#m3k9b7x2v5_eng">
             <speaker>Horacio</speaker>
             <l>Mientras uno con moderada prisa podría contar cien.</l>
           </sp>
-        
-          <sp who="#hamlet" xml:lang="eng" xml:id="x9m7k2v3b5_eng" corresp="#x9m7k2v3b5_spa">
-            <speaker>Hamlet</speaker>
-            <l>His beard was grizzled? No?</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="x9m7k2v3b5_spa" corresp="#x9m7k2v3b5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="x9m7k2v3b5_spa" corresp="#x9m7k2v3b5_eng">
             <speaker>Hamlet</speaker>
             <l>¿Su barba era canosa? ¿No?</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="k2b5m9x3v7_eng" corresp="#k2b5m9x3v7_spa">
-            <speaker>Horatio</speaker>
-            <l>It was, as I have seen it in his life,</l>
-            <l>A sable silver’d.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="k2b5m9x3v7_spa" corresp="#k2b5m9x3v7_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="k2b5m9x3v7_spa" corresp="#k2b5m9x3v7_eng">
             <speaker>Horacio</speaker>
             <l>Era, como la vi en su vida,</l>
             <l>negra plateada.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="m5v9x2k3b7_eng" corresp="#m5v9x2k3b7_spa">
-            <speaker>Hamlet</speaker>
-            <l>I’ll watch tonight. Perchance ’twill walk again.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="m5v9x2k3b7_spa" corresp="#m5v9x2k3b7_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="m5v9x2k3b7_spa" corresp="#m5v9x2k3b7_eng">
             <speaker>Hamlet</speaker>
             <l>Vigilaré esta noche. Quizás ande de nuevo.</l>
           </sp>
-
-          <sp who="#horatio" xml:lang="eng" xml:id="x3b7v9k2m5_eng" corresp="#x3b7v9k2m5_spa">
-            <speaker>Horatio</speaker>
-            <l>I warrant it will.</l>
-          </sp>
-          <sp who="#horatio" xml:lang="spa" xml:id="x3b7v9k2m5_spa" corresp="#x3b7v9k2m5_eng">
+<sp who="#horatio" xml:lang="spa" xml:id="x3b7v9k2m5_spa" corresp="#x3b7v9k2m5_eng">
             <speaker>Horacio</speaker>
             <l>Lo aseguro, lo hará.</l>
           </sp>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="k7m2v9x3b5_eng" corresp="#k7m2v9x3b5_spa">
-            <speaker>Hamlet</speaker>
-            <l>If it assume my noble father’s person,</l>
-            <l>I’ll speak to it though hell itself should gape</l>
-            <l>And bid me hold my peace. I pray you all,</l>
-            <l>If you have hitherto conceal’d this sight,</l>
-            <l>Let it be tenable in your silence still,</l>
-            <l>And whatsoever else shall hap tonight,</l>
-            <l>Give it an understanding but no tongue.</l>
-            <l>I will requite your loves. So, fare you well.</l>
-            <l>Upon the platform, ’twixt eleven and twelve,</l>
-            <l>I’ll visit you.</l>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="k7m2v9x3b5_spa" corresp="#k7m2v9x3b5_eng">
+<sp who="#hamlet" xml:lang="spa" xml:id="k7m2v9x3b5_spa" corresp="#k7m2v9x3b5_eng">
             <speaker>Hamlet</speaker>
             <l>Si toma la persona de mi noble padre,</l>
             <l>le hablaré aunque el infierno mismo abriera su boca</l>
@@ -1269,40 +1700,35 @@
             <l>Sobre la plataforma, entre las once y las doce,</l>
             <l>os visitaré.</l>
           </sp>
-
-          <sp who="#all" xml:lang="eng" xml:id="b2v3k9x7m5_eng" corresp="#b2v3k9x7m5_spa">
-            <speaker>All</speaker>
-            <l>Our duty to your honor.</l>
-          </sp>
-          <sp who="#all" xml:lang="spa" xml:id="b2v3k9x7m5_spa" corresp="#b2v3k9x7m5_eng">
+<sp who="#all" xml:lang="spa" xml:id="b2v3k9x7m5_spa" corresp="#b2v3k9x7m5_eng">
             <speaker>Todos</speaker>
             <l>Nuestro deber a vuestra señoría.</l>
           </sp>
-
-          <stage xml:lang="eng" xml:id="x9m2k7v3b5_eng" corresp="#x9m2k7v3b5_spa">[Exeunt]</stage> 
-          <app>
-              <lem>[ Horatio, Marcellus and Beranardo].</lem>
-                  <rdg wit="#F1" type="variation-absent"></rdg>
-          </app>         
-          <stage xml:lang="spa" xml:id="x9m2k7v3b5_spa" corresp="#x9m2k7v3b5_eng">[Salen Horacio, Marcelo y Bernardo.]</stage>
-
-          <sp who="#hamlet" xml:lang="eng" xml:id="m3k7v9x2b5_eng" corresp="#m3k7v9x2b5_spa">
-            <speaker>Hamlet</speaker>
-            <l>My father’s spirit—in arms! All is not well.</l>
-            <l>I doubt some foul play. Would the night were come!</l>
-            <l>Till then sit still, my soul. Foul deeds will rise,</l>
-            <l>Though all the earth o’erwhelm them, to men’s eyes.</l>
-            <stage>[Exit.]</stage>
-          </sp>
-          <sp who="#hamlet" xml:lang="spa" xml:id="m3k7v9x2b5_spa" corresp="#m3k7v9x2b5_eng">
+<stage xml:lang="spa" xml:id="x9m2k7v3b5_spa" corresp="#x9m2k7v3b5_eng">[Salen Horacio, Marcelo y Bernardo.]</stage>
+<sp who="#hamlet" xml:lang="spa" xml:id="m3k7v9x2b5_spa" corresp="#m3k7v9x2b5_eng">
             <speaker>Hamlet</speaker>
             <l>¡El espíritu de mi padre — en armas! Todo no anda bien.</l>
             <l>Dudo de algún juego sucio. ¡Ojalá llegara la noche!</l>
             <l>Hasta entonces permanece quieta, alma mía. Malas acciones saldrán,</l>
             <l>aun cuando toda la tierra las cubra, a los ojos de los hombres.</l>
             <stage>[Sale.]</stage>
-          </sp>
+</sp>    
        </div>
+      </div>
+       <div type="reflexión">
+        <head>Reflexión personal</head>
+        <p>A lo largo del proceso de elaboración de este proyecto, una de las herramientas que adquirió un papel significativo en la construcción, verificación y refinamiento del trabajo fue ChatGPT. Su función no se limitó a ser un simple asistente digital, sino que operó como un instrumento pedagógico que facilitó una comprensión más profunda tanto del contenido que estaba siendo traducido como de las técnicas empleadas para su presentación visual y la construcción del aparato crítico. La consulta constante a este recurso formó parte integral de la metodología de trabajo, permitiendo avanzar con mayor seguridad en la interpretación lingüística y en la organización estética del documento final.
+En primer lugar, ChatGPT fue empleado como un medio para validar la fidelidad lingüística de la traducción propuesta frente al inglés isabelino que presenta numerosas particularidades en su sintaxis, su vocabulario y su retórica. Dado que el inglés de la época de Shakespeare se caracteriza por estructuras idiomáticas que no siempre encuentran equivalentes directos en la lengua contemporánea, resultaba indispensable contar con una fuente que permitiera contrastar interpretaciones, evaluar la pertinencia de ciertas elecciones léxicas y verificar si los matices del original estaban siendo preservados. Aunque el proyecto no buscaba realizar una edición purista ni estrictamente filológica, sí exigía un esfuerzo consciente por respetar la atmósfera, el registro lingüístico y las intenciones dramáticas del texto fuente. En este sentido, ChatGPT actuó como una guía complementaria que ayudó a confirmar si las soluciones propuestas en español captaban adecuadamente los giros propios del inglés isabelino o si era necesario reconsiderar determinadas decisiones de traducción.
+Asimismo, la herramienta proporcionó un soporte útil para revisar alternativas en la interpretación de expresiones ambiguas, pasajes polisémicos o frases que, por pertenecer a un período lingüístico distante, pueden generar complejidad semántica en su trasvase a otra lengua. Su función no fue reemplazar el análisis humano, sino dialogar con él: ofrecer opciones, señalar posibles lecturas y fomentar un proceso crítico que derivara en una traducción más consciente y fundamentada. Al confrontar diferentes posibilidades sugeridas por la plataforma, se fortaleció la capacidad de discernir entre múltiples variantes, escogiendo aquella que mejor armonizaba con el tono, la intención y la coherencia dramática del texto original. Es importante destacar que este uso fue enteramente académico, orientado al desarrollo de habilidades de análisis textual y traducción literaria.
+En segundo lugar, ChatGPT también cumplió un rol relevante en el área estética y estructural del proyecto, particularmente en lo que concierne al diseño y la disposición visual de los elementos mediante CSS. El proyecto no se limitaba a presentar una traducción, sino que buscaba integrarla en un entorno digital capaz de reproducir, de manera organizada y clara, las distintas capas textuales del documento: variantes, lecturas alternativas, intervenciones editoriales y fragmentos de comparación. La herramienta ofreció sugerencias sobre cómo distribuir la información en pantalla, cómo distinguir visualmente las variantes, qué estilos podían ayudar a lograr una mayor legibilidad y qué estrategias eran recomendables para resaltar relaciones internas dentro del texto.
+En este punto, ChatGPT funcionó como un recurso didáctico que impulsó la exploración y experimentación con las posibilidades del CSS. Al consultar sobre métodos para estilizar elementos particulares —como encabezados, segmentos paralelos, variantes textuales o marcadores visuales— se abrió un espacio para el aprendizaje activo: se comprendió de manera más nítida cómo operan las propiedades del lenguaje de estilos, cómo se relacionan entre sí, y cómo pueden manipularse para construir una presentación coherente y funcional. En lugar de limitarse a aplicar instrucciones mecánicas, el proceso permitió desarrollar una comprensión más sólida de los principios que rigen la organización visual de un documento en la web.
+El intercambio con la herramienta impulsó, además, una reflexión sobre la estética digital en el contexto de proyectos humanísticos: cómo el diseño puede favorecer la lectura crítica, de qué manera una interfaz limpia facilita el acceso a la información textual, y en qué medida la disposición tipográfica influye en la interpretación del texto traducido. Estas consideraciones se integraron progresivamente en el proyecto, dando lugar a una versión más pulida, clara y organizada. Cada consulta sobre CSS, lejos de ser un atajo, se convirtió en una oportunidad de ahondar en el funcionamiento real de los estilos, desde la manipulación de selectores hasta el comportamiento de pseudoelementos y pseudoclases, pasando por temas como jerarquías, herencia, especificidad, posicionamiento y diseño responsivo.
+A esto se añade que, durante el proceso, ChatGPT facilitó la exploración de distintas formas de presentar la interacción entre versiones del texto—por ejemplo, alternar entre Q2, F1 y Q1— de manera que el lector pudiera visualizar las diferencias entre las variantes de forma intuitiva y ordenada. La herramienta contribuyó con ideas sobre cómo estructurar esas transiciones mediante clases activables, botones flotantes o paneles laterales, permitiendo desarrollar un sistema de visualización dinámico que enriqueció notablemente la experiencia de lectura.
+Es importante subrayar que todo este uso de la inteligencia artificial tuvo una finalidad exclusivamente formativa. El objetivo nunca fue delegar el trabajo creativo o técnico en ChatGPT, sino utilizarla como puente para adquirir conocimientos, ampliar criterios y mejorar la calidad del proyecto final. Su papel fue el de un asistente conceptual que ayudó a consolidar un aprendizaje más sólido sobre tres áreas fundamentales: la traducción literaria, el análisis textual y el diseño web a través de CSS.
+En síntesis, la herramienta actuó como un apoyo valioso en tres planos complementarios.
+Primero, en el plano lingüístico, permitió contrastar y validar interpretaciones del inglés isabelino, abriendo la posibilidad de verificar matices que podían pasar inadvertidos en una primera lectura. Segundo, en el plano técnico, ofreció sugerencias útiles para mejorar la organización, el diseño visual y la experiencia interactiva del documento. Tercero, en el plano educativo, proporcionó un entorno en el que fue posible fortalecer competencias en CSS, explorando sus funcionalidades con mayor profundidad y precisión.
+Gracias al empleo crítico y consciente de esta herramienta, el proyecto no solo logró alcanzar un nivel más alto de claridad y coherencia, sino que también permitió al autor enriquecer sus habilidades como traductor, editor y diseñador digital. En última instancia, su utilización fomentó un aprendizaje integral que abarcó desde la sensibilidad lingüística hasta la comprensión del diseño web, reafirmando que las herramientas tecnológicas, usadas con responsabilidad y criterio, pueden convertirse en aliados valiosos para la investigación, la creación y el desarrollo académico.
+        </p>
       </div>
     </body>
   </text>

@@ -19,11 +19,7 @@
           return result;
         },
         "lb": ["<br>"],
-        /* Insert a <p> with the content of the <pb>'s @n attribute inside it
-           Add a line above with CSS */
         "pb": ["<p class=\"break\">$@n</p>"],
-        /* Para acceder a los elementos 
-        del teiHeader: */
         "teiHeader": null,
       }
     };
@@ -35,8 +31,92 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
+  <button id="toggleF1">Mostrar F1</button>
+<button id="toggleQ1">Mostrar Q1</button>
 
+<aside id="comparisonPanel">
+  <h2 id="panelTitle">Variantes</h2>
+  <div id="variantList"></div>
+</aside>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const btnF1 = document.getElementById("toggleF1");
+  const btnQ1 = document.getElementById("toggleQ1");
+  const panel = document.getElementById("comparisonPanel");
+  const list = document.getElementById("variantList");
+  const title = document.getElementById("panelTitle");
+
+  let currentMode = null; // "F1", "Q1" o null
+
+  function setMode(mode) {
+    // Quitar clases anteriores
+    document.body.classList.remove("show-f1", "show-q1");
+
+    if (!mode) {
+      // Sin modo: volvemos solo a Q2
+      panel.style.display = "none";
+      currentMode = null;
+      return;
+    }
+
+    currentMode = mode;
+    panel.style.display = "block";
+
+    if (mode === "F1") {
+      document.body.classList.add("show-f1");
+      title.textContent = "Variantes del F1";
+    } else if (mode === "Q1") {
+      document.body.classList.add("show-q1");
+      title.textContent = "Variantes del Q1";
+    }
+
+    loadVariants(mode);
+  }
+
+  btnF1.addEventListener("click", () => {
+    // Si ya estoy en F1 y vuelvo a clicar, apago
+    setMode(currentMode === "F1" ? null : "F1");
+  });
+
+  btnQ1.addEventListener("click", () => {
+    // Si ya estoy en Q1 y vuelvo a clicar, apago
+    setMode(currentMode === "Q1" ? null : "Q1");
+  });
+
+  function loadVariants(witness) {
+    const apps = document.querySelectorAll("app, tei-app");
+    list.innerHTML = "";
+
+    apps.forEach(app => {
+      const lem = app.querySelector("lem, tei-lem");
+
+      const rdg =
+        app.querySelector(
+          `rdg[wit*="${witness}"], tei-rdg[wit*="${witness}"],` +
+          `rdg[witness*="${witness}"], tei-rdg[witness*="${witness}"],` +
+          `rdg[data-witness*="${witness}"], tei-rdg[data-witness*="${witness}"]`
+        );
+
+      if (lem && rdg) {
+        const item = document.createElement("div");
+        item.classList.add("variant");
+        item.innerHTML =
+          `<lem>${lem.textContent}</lem>` +
+          `<rdg>${rdg.textContent}</rdg>`;
+        list.appendChild(item);
+      }
+    });
+  }
+
+  // Arrancamos con el panel oculto y solo Q2 visible
+  panel.style.display = "none";
+});
+</script>
 </body>
 </html>
