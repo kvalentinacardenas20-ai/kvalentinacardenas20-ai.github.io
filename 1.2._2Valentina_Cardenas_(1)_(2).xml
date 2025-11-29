@@ -344,13 +344,14 @@
           <lem>
           <sp who="#polonius" xml:lang="eng" xml:id="b7x3m2k9v4_eng" corresp="#b7x3m2k9v4_spa">
             <speaker>Polonius</speaker>
-            <l>He hath, my lord,             
+            <l>He hath, my lord,    </l>         
               <app>
-               <lem>wrung from me my slow leave
-            By laborsome petition, and at last
-            Upon his will I sealed my hard consent.</lem>
+               <lem>
+            <l>wrung from me my slow leave</l>
+           <l> By laborsome petition, and at last</l>
+           <l> Upon his will I sealed my hard consent.</l></lem>
               <rdg wit="#F1" type="variation-absent"></rdg>
-            </app></l>
+            </app>
             <l>I do beseech you, give him leave to go.</l>
              </sp>
             </lem>
@@ -358,8 +359,9 @@
              <rdg wit="#Q1" type="variation-present">
             <sp who="#corambis" xml:lang="eng" xml:id="m7k1v4x9b1_eng" corresp="#m7k1v4x9b1_spa">
             <speaker>Corambis</speaker>
-            <l>He hath, my lord ,wrung from me a forced graunt,
-             And I beseech you grant your Highnesse leave. </l>
+            <l>He hath, my lord,  </l>
+              <l> wrung from me a forced graunt, </l>
+              <l>And I beseech you grant your Highnesse leave. </l>
             </sp>
             </rdg>
             </app>
@@ -461,7 +463,7 @@
             <l>Together with all forms, moods, shapes of grief,</l>
             <l>That can denote me truly. These indeed “seem,”</l>
             <l>For they are actions that a man might play;</l>
-            <l>But I have that within which passes show—</l>
+            <l>But I have that within which passes show</l>
             <l>These but the trappings and the suits of woe.</l>
           </sp>
           <sp who="#king" xml:lang="eng" xml:id="x3m9v2k7b5_eng" corresp="#x3m9v2k7b5_spa">
@@ -608,8 +610,8 @@
               </app></l>
             <l>Fie on’t! ah fie! ’tis an unweeded garden</l>
             <l>That grows to seed. Things rank and gross in nature</l>
-            <l>Possess it merely. That it should come to this—</l>
-            <l>But two months dead! Nay, not so much, not two—</l>
+            <l>Possess it merely. That it should come to this</l>
+            <l>But two months dead! Nay, not so much, not two</l>
             <l>So excellent a king, that was to this</l>
             <l>Hyperion to a satyr. So loving to my mother</l>
             <l>That he might not beteem the winds of heaven</l>
@@ -690,11 +692,11 @@
             <l></l>
              <app>
               <lem>
-                <l>I am glad to see you well. Horatio—or I do forget myself!</l>
+                <l>I am glad to see you well. Horatio or I do forget myself!</l>
               </lem>
               <rdg wit="#F1">
                 <l>I am glad to see you well.</l> 
-                <l>Horatio—or I do forget myself!</l>
+                <l>Horatio or I do forget myself!</l>
               </rdg>
             </app> 
           </sp>
@@ -708,7 +710,7 @@
 
           <sp who="#hamlet" xml:lang="eng" xml:id="x2b9m7k3v5_eng" corresp="#x2b9m7k3v5_spa">
             <speaker>Hamlet</speaker>
-            <l>Sir, my good friend—I'll change that name with you.</l>
+            <l>Sir, my good friend. I'll change that name with you.</l>
             <l>And what make you from Wittenberg, Horatio?</l>
             <app>
               <lem>-Marcellus?</lem>
@@ -719,7 +721,7 @@
 
           <sp who="#marcellus" xml:lang="eng" xml:id="m4v9k2x7b3_eng" corresp="#m4v9k2x7b3_spa">
             <speaker>Marcellus</speaker>
-            <l>My good lord—</l>
+            <l>My good lord</l>
           </sp>
           
 
@@ -1092,12 +1094,12 @@
           
           <sp who="#horatio" xml:lang="eng" xml:id="m2v7k9x3b5_eng" corresp="#m2v7k9x3b5_spa">
             <speaker>Horatio</speaker>
-            <l>A countenance more in sorrow</l>
+            <l>A countenance more in sorrow
             <app>
               <lem >than</lem>
               <rdg wit="F1">then</rdg>
             </app>
-            <l>in anger.</l>
+            in anger.</l>
           </sp>
           
           <sp who="#hamlet" xml:lang="eng" xml:id="b5m3v9k2x7_eng" corresp="#b5m3v9k2x7_spa">
@@ -1721,9 +1723,9 @@
 En primer lugar, ChatGPT fue empleado como un medio para validar la fidelidad lingüística de la traducción propuesta frente al inglés isabelino que presenta numerosas particularidades en su sintaxis, su vocabulario y su retórica. Dado que el inglés de la época de Shakespeare se caracteriza por estructuras idiomáticas que no siempre encuentran equivalentes directos en la lengua contemporánea, resultaba indispensable contar con una fuente que permitiera contrastar interpretaciones, evaluar la pertinencia de ciertas elecciones léxicas y verificar si los matices del original estaban siendo preservados. Aunque el proyecto no buscaba realizar una edición purista ni estrictamente filológica, sí exigía un esfuerzo consciente por respetar la atmósfera, el registro lingüístico y las intenciones dramáticas del texto fuente. En este sentido, ChatGPT actuó como una guía complementaria que ayudó a confirmar si las soluciones propuestas en español captaban adecuadamente los giros propios del inglés isabelino o si era necesario reconsiderar determinadas decisiones de traducción.
 Asimismo, la herramienta proporcionó un soporte útil para revisar alternativas en la interpretación de expresiones ambiguas, pasajes polisémicos o frases que, por pertenecer a un período lingüístico distante, pueden generar complejidad semántica en su trasvase a otra lengua. Su función no fue reemplazar el análisis humano, sino dialogar con él: ofrecer opciones, señalar posibles lecturas y fomentar un proceso crítico que derivara en una traducción más consciente y fundamentada. Al confrontar diferentes posibilidades sugeridas por la plataforma, se fortaleció la capacidad de discernir entre múltiples variantes, escogiendo aquella que mejor armonizaba con el tono, la intención y la coherencia dramática del texto original. Es importante destacar que este uso fue enteramente académico, orientado al desarrollo de habilidades de análisis textual y traducción literaria.
 En segundo lugar, ChatGPT también cumplió un rol relevante en el área estética y estructural del proyecto, particularmente en lo que concierne al diseño y la disposición visual de los elementos mediante CSS. El proyecto no se limitaba a presentar una traducción, sino que buscaba integrarla en un entorno digital capaz de reproducir, de manera organizada y clara, las distintas capas textuales del documento: variantes, lecturas alternativas, intervenciones editoriales y fragmentos de comparación. La herramienta ofreció sugerencias sobre cómo distribuir la información en pantalla, cómo distinguir visualmente las variantes, qué estilos podían ayudar a lograr una mayor legibilidad y qué estrategias eran recomendables para resaltar relaciones internas dentro del texto.
-En este punto, ChatGPT funcionó como un recurso didáctico que impulsó la exploración y experimentación con las posibilidades del CSS. Al consultar sobre métodos para estilizar elementos particulares —como encabezados, segmentos paralelos, variantes textuales o marcadores visuales— se abrió un espacio para el aprendizaje activo: se comprendió de manera más nítida cómo operan las propiedades del lenguaje de estilos, cómo se relacionan entre sí, y cómo pueden manipularse para construir una presentación coherente y funcional. En lugar de limitarse a aplicar instrucciones mecánicas, el proceso permitió desarrollar una comprensión más sólida de los principios que rigen la organización visual de un documento en la web.
+En este punto, ChatGPT funcionó como un recurso didáctico que impulsó la exploración y experimentación con las posibilidades del CSS. Al consultar sobre métodos para estilizar elementos particulares, como encabezados, segmentos paralelos, variantes textuales o marcadores visuales se abrió un espacio para el aprendizaje activo: se comprendió de manera más nítida cómo operan las propiedades del lenguaje de estilos, cómo se relacionan entre sí, y cómo pueden manipularse para construir una presentación coherente y funcional. En lugar de limitarse a aplicar instrucciones mecánicas, el proceso permitió desarrollar una comprensión más sólida de los principios que rigen la organización visual de un documento en la web.
 El intercambio con la herramienta impulsó, además, una reflexión sobre la estética digital en el contexto de proyectos humanísticos: cómo el diseño puede favorecer la lectura crítica, de qué manera una interfaz limpia facilita el acceso a la información textual, y en qué medida la disposición tipográfica influye en la interpretación del texto traducido. Estas consideraciones se integraron progresivamente en el proyecto, dando lugar a una versión más pulida, clara y organizada. Cada consulta sobre CSS, lejos de ser un atajo, se convirtió en una oportunidad de ahondar en el funcionamiento real de los estilos, desde la manipulación de selectores hasta el comportamiento de pseudoelementos y pseudoclases, pasando por temas como jerarquías, herencia, especificidad, posicionamiento y diseño responsivo.
-A esto se añade que, durante el proceso, ChatGPT facilitó la exploración de distintas formas de presentar la interacción entre versiones del texto—por ejemplo, alternar entre Q2, F1 y Q1— de manera que el lector pudiera visualizar las diferencias entre las variantes de forma intuitiva y ordenada. La herramienta contribuyó con ideas sobre cómo estructurar esas transiciones mediante clases activables, botones flotantes o paneles laterales, permitiendo desarrollar un sistema de visualización dinámico que enriqueció notablemente la experiencia de lectura.
+A esto se añade que, durante el proceso, ChatGPT facilitó la exploración de distintas formas de presentar la interacción entre versiones del texto. Por ejemplo, alternar entre Q2, F1 y Q1, de manera que el lector pudiera visualizar las diferencias entre las variantes de forma intuitiva y ordenada. La herramienta contribuyó con ideas sobre cómo estructurar esas transiciones mediante clases activables, botones flotantes o paneles laterales, permitiendo desarrollar un sistema de visualización dinámico que enriqueció notablemente la experiencia de lectura.
 Es importante subrayar que todo este uso de la inteligencia artificial tuvo una finalidad exclusivamente formativa. El objetivo nunca fue delegar el trabajo creativo o técnico en ChatGPT, sino utilizarla como puente para adquirir conocimientos, ampliar criterios y mejorar la calidad del proyecto final. Su papel fue el de un asistente conceptual que ayudó a consolidar un aprendizaje más sólido sobre tres áreas fundamentales: la traducción literaria, el análisis textual y el diseño web a través de CSS.
 En síntesis, la herramienta actuó como un apoyo valioso en tres planos complementarios.
 Primero, en el plano lingüístico, permitió contrastar y validar interpretaciones del inglés isabelino, abriendo la posibilidad de verificar matices que podían pasar inadvertidos en una primera lectura. Segundo, en el plano técnico, ofreció sugerencias útiles para mejorar la organización, el diseño visual y la experiencia interactiva del documento. Tercero, en el plano educativo, proporcionó un entorno en el que fue posible fortalecer competencias en CSS, explorando sus funcionalidades con mayor profundidad y precisión.
